@@ -1,7 +1,7 @@
 ## Taylorismus - Scientific Management 1900-1939
 - Finanziellen Wohlstand der von Arbeitnehmer und Arbeitgeber Fördern
 - Analytisch geprägte optimale Ausnutzung von menschlichen Resourcen
-- Produktivitätssteigerung durch Prozessoptimierung [[Innovation#Art der Innovation]]
+- Produktivitätssteigerung durch Prozessoptimierung [[Innovation#Art der Innovation|Prozessinnovation]]
 - Menschenbild des Homo Oeconomicus [[Unternehmerlisches Denken#Vollkommener Markt]]
 - Arbeitnehmer als Einkommensmaximierer nicht Nutzenmaximierer => Anreizsystem
 - Trennung von Ausführungs und Dispositionsvorgesetzten [[Unternehmerlisches Denken#Dispositive Faktoren Mengen Kapazitäten]]
