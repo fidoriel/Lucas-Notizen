@@ -6,38 +6,36 @@ Kanten $E = \{e_1, \ldots,e_n\} \subseteq V \times V$
 - falls $G$ nicht leer
     $n = m+1$
 - zu je zwei Knoten existiert genau ein Pfad, der beide Knoten verbindet
-- $G$ ist minimal zusammenhängend (eine Kante weniger → nicht zusammenhängend)
-- $G$ ist maximal azyklisch (eine Kante mehr → nicht azyklisch)
+- $G$ ist minimal zusammenhängend (eine Kante weniger => nicht zusammenhängend)
+- $G$ ist maximal azyklisch (eine Kante mehr => nicht azyklisch)
 
 ## Knoten
-
-ein Knoten $v$ ist inzident mit Kante $e$, wenn $v \in e$
- Wurzel
-Knoten mit Eingangsgrad 0
-Blätter
-Knoten mit Ausgangsgrad 0
-Inneren Knoten
-Knoten mit Eingangsgrad 1 und Ausgangsgrad > 0
+- ein Knoten $v$ ist inzident mit Kante $e$, wenn $v \in e$ Wurzel
+	- Knoten mit Eingangsgrad 0
+- Blätter
+	- Knoten mit Ausgangsgrad 0
+- Inneren Knoten
+	- Knoten mit Eingangsgrad 1 und Ausgangsgrad > 0
 
 ### Eltern- und Kind
 Jeder Knoten außer die Wurzel hat genau einen Elternknoten
 Alle Knoten mit gleichem Elternknoten werden Geschwister genannt
 
 ### Eigenschaften
-Tiefe eines Knotens
-ist die Anzahl der Kanten bis zur Wurzel
-Höhe des Baums
-ist die maximale Tiefe über alle Knoten
-Level
-alle Knoten mit gleicher Pfadlänge von Wurzel bis zum Knoten
+- Tiefe eines Knotens
+	- ist die Anzahl der Kanten bis zur Wurzel
+- Höhe des Baums
+	- ist die maximale Tiefe über alle Knoten
+- Level
+	- alle Knoten mit gleicher Pfadlänge von Wurzel bis zum Knoten
 
 ### Flussordnungszahl
-Maß für die Verzweigung
+- Maß für die Verzweigung
 - Blattknoten haben Ordnung $1$
 - Kindknoten mit gleicher Ordnung
-    → Elternknoten erhalten Ordnung + 1
+    => Elternknoten erhalten Ordnung + 1
 - Kindknoten mit unterschiedlicher Ordnung
-    → Elternknoten erhält höhere Ordnung
+	=> Elternknoten erhält höhere Ordnung
 
 ### Traversierung
 Iteration durch alle Knoten eines Baums
@@ -47,13 +45,13 @@ Auslassen von Unterbäumen
 
 ###### Tiefensuche
 so tief wie möglich im Baum hinabsteigen
-→ bis zu einem Blatt
-→ erst dann Geschwisterknoten
-→ durch Stack
+=> bis zu einem Blatt
+=> erst dann Geschwisterknoten
+=> durch Stack
 
 ###### Breitensuche
 erst alle Knoten eines Levels, dann Knoten der darunter folgenden Level
-→ durch Queue
+=> durch Queue
 
 ### Speicherung
 #### Adjazenzliste
@@ -61,12 +59,12 @@ für jeden Knoten Liste aller Nachbarn angeben
 
 #### Adjazenzmatrix
 für jeden Knoten alle Knoten angeben
-→ hinterlegen, ob verbunden oder nicht verbunden
-→ zweidimensionales Array
+=> hinterlegen, ob verbunden oder nicht verbunden
+=> zweidimensionales Array
 
 #### Kantenliste
 nur Kanten speichern
-→ falls Knoten nicht verbunden sind, werden sie nicht erfasst
+=> falls Knoten nicht verbunden sind, werden sie nicht erfasst
 
 !todo VL Montag einführung Bäume
 Blattknoten = Ausgangsgrad von 0
