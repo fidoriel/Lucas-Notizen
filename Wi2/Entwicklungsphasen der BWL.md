@@ -2,9 +2,9 @@
 - Finanziellen Wohlstand der von Arbeitnehmer und Arbeitgeber Fördern
 - Analytisch geprägte optimale Ausnutzung von menschlichen Resourcen
 - Produktivitätssteigerung durch Prozessoptimierung [[Innovation#Art der Innovation|Prozessinnovation]]
-- Menschenbild des Homo Oeconomicus [[Unternehmerlisches Denken#Vollkommener Markt]]
+- Menschenbild des Homo Oeconomicus [[Unternehmerlisches Denken#Vollkommener Markt|Vollkommener Markt]]
 - Arbeitnehmer als Einkommensmaximierer nicht Nutzenmaximierer => Anreizsystem
-- Trennung von Ausführungs und Dispositionsvorgesetzten [[Unternehmerlisches Denken#Dispositive Faktoren Mengen Kapazitäten]]
+- Trennung von Ausführungs und Dispositionsvorgesetzten [[Unternehmerlisches Denken#Dispositive Faktoren Mengen Kapazitäten|Disposition]]
 	- Trennung von Leitung und Planung
 - Anwendung Wissenschaflicher Methoden
 
