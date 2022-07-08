@@ -2,7 +2,7 @@
 ist ein gerichteter Graph $G=(V,E)$ mit $n$ Knoten und $m$ Kanten
 G ist zusammenhängend und zyklenfrei (azyklisch)
 Knoten $V=\{v_1,\ldots,v_n\}$
-Kanten $E = \{e_1, \ldots,e_n\} \sube V \times V$
+Kanten $E = \{e_1, \ldots,e_n\} \subseteq V \times V$
 - falls $G$ nicht leer
     $n = m+1$
 - zu je zwei Knoten existiert genau ein Pfad, der beide Knoten verbindet
@@ -52,7 +52,6 @@ so tief wie möglich im Baum hinabsteigen
 → durch Stack
 
 ###### Breitensuche
-
 erst alle Knoten eines Levels, dann Knoten der darunter folgenden Level
 → durch Queue
 
