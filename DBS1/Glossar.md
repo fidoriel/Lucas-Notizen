@@ -15,3 +15,28 @@ Schlüsselattribute enthalten
 ### Assertions
 - Nebenbedinung für für Insertions
 	- z.B. Arbeitnehmer muss >= 10.000€ verdienen
+
+### Domänen
+> Wertebreiche
+- Mengen $A_1, A_2,...A_n$
+	- Datentypen z.B. $Bool, String, Integer$
+
+### Tupel
+- $(a_1, a_2,...a_n)$ => Daten
+	- $True, Naumann, 42$
+> Zeilen einer Tabelle
+
+### Relation
+- Einfache Tabellendarstellung
+- Für Entities und Relationships
+- Besteht aus Attributen und Tupeln
+
+### Attibute
+> Spaltenüberschrift
+- Attibutwerte sind Atomar, z.B. Hausnummer, nicht Adresse
+
+### Datenbankschema
+> Besteht aus einem oder mehreren Relationenschemata
+
+### Relationenschemata
+> Name der Relation sowie Liste der Attribute mit Domäne

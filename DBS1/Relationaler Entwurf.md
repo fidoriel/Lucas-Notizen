@@ -53,5 +53,7 @@ Pfeil offen: genau 1
 
 ### Schwache Entität
 - Kann nicht alleine durch PK identifiziert werden
-- Benötigen FK zur identifikation => PK, der starken Entität
+- Benötigen FK zur identifikation => alle Attribute des PK, der starken Entität
+- Alle, die Schwache Entität referenzieren brauchen alle Attribute des PK, also PK, der Starken Entität
+
 
