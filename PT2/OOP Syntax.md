@@ -319,3 +319,26 @@ int z = static_cast<int>(x);
 ```
 
 ### dynamic_cast
+```
+struct Base {
+	virtual ~Base() {}
+};
+struct Derived : Base {
+	virtual void name() {}
+};
+
+// BSP:
+Base* b2 = new Derived;
+if(Derived* d = dynamic_cast<Derived*>(b2)) {
+	std::cout << "downcast from b2 to d successful\n";
+	d->name(); //safe to call not NULL
+}
+```
+
+### reinterpret_cast
+stumpfer cast ohne checks => c cast
+für Memory mapped IO etc.
+```
+int* p = new int(65);
+char* ch = reinterpret_cast<char*>(p);
+```
