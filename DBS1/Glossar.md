@@ -21,6 +21,7 @@ Schlüsselattribute enthalten
 	- z.B. Arbeitnehmer muss >= 10.000€ verdienen
 
 ### Domänen
+Eigenschaften aus der realen Welt
 > Wertebreiche
 - Mengen $A_1, A_2,...A_n$
 	- Datentypen z.B. $Bool, String, Integer$
