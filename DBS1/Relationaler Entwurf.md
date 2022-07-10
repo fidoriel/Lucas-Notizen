@@ -50,6 +50,7 @@ bei 1:1 direkte Aufteilung
 bei m:n ==nicht möglich==
 
 ### IST-Umwandlung
+#### Nullwerte
 
 
 
