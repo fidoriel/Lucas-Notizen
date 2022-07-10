@@ -149,6 +149,13 @@ class Y : proteted X { ... };
 ```
 Y erbt private und protected von X als protected
 
+### Mehrfach Vererbung
+```
+class X { ... };
+class Y { ... };
+class Z : public X, public Y { ... };
+```
+
 ## Virtual
 ```
 class P {
