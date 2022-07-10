@@ -36,3 +36,11 @@ Erstellen von `CREATE INDEX`
 => Tuning
 => Portierung
 
+## ER
+![[ER.png]]
+![[ER2.png]]
+
+### IST
+- Subklassen fügen weitere Attribute hinzu
+- Akzeptieren keine Mehrfachvererbung
+![[ER_Subklassen.png]]
