@@ -49,7 +49,8 @@ bei 1:n, die eins an n anhängen => film(__titel__, __jahr__,...,besitzendes_stu
 bei 1:1 direkte Aufteilung
 bei m:n ==nicht möglich==
 
-### Spezialisierung
+### IST-Umwandlung
+
 
 
 ## ER Syntax
