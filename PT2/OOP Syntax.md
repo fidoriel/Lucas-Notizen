@@ -301,4 +301,21 @@ std::cout << "p7: " << p7 << std::endl; // p7 is nullptr
 !maybe
 
 ## Casts
-### const_cast<B>(A):
+### const_cast
+Entfernt Konstantheit
+```
+int i = 3; // i is not declared const
+const int& cref_i = i; // const reference to i
+const_cast<int&>(cref_i) = 4; // OK: modifies i via cref_i
+```
+
+### static_cast
+für up/down Casting
+Typüberwacht
+```
+float x = 4.26;
+int y = x; // C like cast
+int z = static_cast<int>(x);
+```
+
+### dynamic_cast
