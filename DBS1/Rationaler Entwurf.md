@@ -26,7 +26,13 @@ Keine redundaten Daten speichern
 - Normalisierung
 
 ### Datendefinition => SQL DDL
-Erstellen von ```CREATE TABLE```
+Erstellen von `CREATE TABLE` oder `CREATE VIEW`
 
-3. Physischer Entwurf => Parameter und Indizes
-4. Implementierung und Wartung => Installationen, Backups, etc.
+### Physischer Entwurf => Parameter und Indizes
+Erstellen von `CREATE INDEX` 
+
+### Implementierung und Wartung => Installationen, Backups
+=> Anpassung an Anforderungen
+=> Tuning
+=> Portierung
+
