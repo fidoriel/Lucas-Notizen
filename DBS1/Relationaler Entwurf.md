@@ -53,20 +53,21 @@ bei m:n ==nicht möglich==
 #### Nullwerte
 - alle nicht Attribute an Relation angehangen und ungenutzte nullen
 => Eine Relation
+$FilmZK(\underline{Titel, Jahr}, Länge, Typ, Waffen)$
 
 #### ER-Stil
 Primärschlüssel aus der Parent Relation in allen Childrelationen mit dessen Attributen:
-Film(==Titel, Jahr==, Länge,Typ)
-Krimi(==Titel, Jahr==, Waffen)
-Zeichentrickfilm(==Titel, Jahr==)
+$Film(\underline{Titel, Jahr}, Länge,Typ)$
+$Krimi(\underline{Titel, Jahr}, Waffen)$
+$Zeichentrickfilm(\underline{Titel, Jahr})$
 => ANzahl Relationen = Parent(1) + Childrelationen
 
 ### OOP-Stiel
 Für JEDE Kombination eigene Relation:
-Film(Titel, Jahr, Länge, Typ)
-FilmZ(Titel, Jahr, Länge, Typ)
-FilmK(Titel, Jahr, Länge, Typ, Waffen)
-FilmZK(Titel, Jahr, Länge, Typ, Waffen)
+$Film(\underline{Titel, Jahr}, Länge, Typ)$
+$FilmZ(\underline{Titel, Jahr}, Länge, Typ)$
+$FilmK(\underline{Titel, Jahr}, Länge, Typ, Waffen)$
+$FilmZK(\underline{Titel, Jahr}, Länge, Typ, Waffen)$
 
 => Relationen für jeden Teil[[Trees|Baum]] (incl. Wurzel)
 
