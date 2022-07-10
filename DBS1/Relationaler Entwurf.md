@@ -68,7 +68,7 @@ FilmZ(Titel, Jahr, Länge, Typ)
 FilmK(Titel, Jahr, Länge, Typ, Waffen)
 FilmZK(Titel, Jahr, Länge, Typ, Waffen)
 
-=> Relationen für jeden Teilbaum (incl. Wurzel)
+=> Relationen für jeden Teil[[Trees|Baum]] (incl. Wurzel)
 
 ## ER Syntax
 ![[ER.png]]
