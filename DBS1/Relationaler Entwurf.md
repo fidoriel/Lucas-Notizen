@@ -45,4 +45,11 @@ Erstellen von `CREATE INDEX`
 - Akzeptieren keine Mehrfachvererbung
 ![[ER_Subklassen.png]]
 
-###  1...n
+###  Kardinalitäten nach Naumann
+Pfeil zeigt immer auf Entität
+Pfeil mit Ausgefüllter Spitze: 0...1
+kein Pfeil: m...n
+Pfeil offen: genau 1
+
+### Schwache Entität
+
