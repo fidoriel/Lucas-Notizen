@@ -51,7 +51,7 @@ bei m:n ==nicht möglich==
 
 ### IST-Umwandlung
 #### Nullwerte
-- alle nicht benötigten Attribute an Relation angehangen und 
+- alle nicht benötigten Attribute an Relation angehangen und GE
 
 
 ## ER Syntax
