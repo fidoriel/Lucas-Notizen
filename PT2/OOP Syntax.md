@@ -49,20 +49,58 @@ class Y
 ```
 
 ## Constructor
-class Counter {
-2
-int c_;
-//attribute 1: int, used as counter
-3
-int max_;
-//attribute 2: int, defines the limit
-4
-public:
-5
-
+#### Default ohne Args
 ```
 class Y
 {
-	Y(int m) : c_{0}, max_{m} {}
+	Y()
+	{};
 }
 ```
+
+#### Copy Constructor
+```
+class Y
+{
+	Y& Y::Y(const Y& a);
+}
+```
+
+#### Move Constructor
+```
+class Y
+{
+	Y& Y::Y(Y&& a);
+}
+```
+
+#### Copy and Assignment Constructor
+```
+class Y
+{
+	Y& Y::Y(Y&& a);
+}
+```
+
+
+## Destructor
+```
+class Y
+{
+	~Y()
+	{};
+}
+```
+called durch Stackabbau oder `delete`
+
+
+## Nested Class
+```
+class Y
+{
+	class nested
+	{
+	}
+}
+```
+

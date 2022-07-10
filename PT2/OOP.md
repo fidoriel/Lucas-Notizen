@@ -67,3 +67,5 @@
 - Nichtstatische Methoden => Funktionen
 - Statische Attribute => Globale vars
 - Statische Methoden => objektunabhänige Funktionen im Namensraum
+- Class namespace eindeutig => aber [[OOP Syntax#Nested Class]]
+- split in .h und .cpp => #pragma once oder #ifndef x_h #define x_h #endif
