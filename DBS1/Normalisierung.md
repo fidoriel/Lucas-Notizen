@@ -33,3 +33,6 @@ $Titel, Jahr \rightarrow Länge$
 $\nRightarrow Jahr \rightarrow Länge$
 $\nRightarrow Titel \rightarrow Länge$
 
+### Hüllenbildung
+
+
