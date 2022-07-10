@@ -233,3 +233,25 @@ U* p4 = static_cast<U*>(p1); // up casting using static_cast
 U& r1 = *p2; // ok
 U& r2 = *p1; // ok, up casting
 ```
+
+### Downcasting
+->Parent => ->Child
+nur wenn Child Spezialisiert
+laufzeitgeprüft durch `dynamic_cast`
+```
+class U { public: virtual ~U(){} };
+class V : public U {};
+
+V* p1 = new V;
+U* p2 = new U;
+
+U* p3 = static_cast<U*>(p1); // ok, up casting
+V* p4 = static_cast<V*>(p3); // in this case ok
+V* p5 = dynamic_cast<V*>(p3); // in this case ok
+std::cout << "p5: " << p5 << std::endl;
+
+class X { public: virtual ~X(){} };
+X* p6 = new X;
+V* p7 = dynamic_cast<V*>(p6); // does not make sense
+std::cout << "p7: " << p7 << std::endl; // p7 is nullptr
+```
