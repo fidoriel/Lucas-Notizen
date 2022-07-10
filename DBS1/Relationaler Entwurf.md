@@ -52,4 +52,6 @@ kein Pfeil: m...n
 Pfeil offen: genau 1
 
 ### Schwache Entität
+- Kann nicht alleine durch PK identifiziert werden
+- Benötigen FK zur identifikation => PK, der starken Entität
 
