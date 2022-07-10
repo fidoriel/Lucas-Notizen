@@ -51,8 +51,15 @@ bei m:n ==nicht möglich==
 
 ### IST-Umwandlung
 #### Nullwerte
-- alle nicht benötigten Attribute an Relation angehangen und GE
+- alle nicht Attribute an Relation angehangen und ungenutzte nullen
+=> Eine Relation
 
+#### ER-Stil
+Attribute als Filmattribute 
+BSP:
+Film(Titel, Jahr, Länge,Typ)
+Krimi(Titel, Jahr, Waffen)
+Zeichentrickfilm(Titel, Jahr)
 
 ## ER Syntax
 ![[ER.png]]
