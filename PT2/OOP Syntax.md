@@ -220,3 +220,16 @@ class Y : public X { // Compiler Error
 ```
 
 ## Casting
+### Upcasting
+->Child => ->Parent
+```
+class U {};
+class V : public U {};
+
+V* p1 = new V;
+U* p2 = new U;
+U* p3 = p1; // up casting, implicit
+U* p4 = static_cast<U*>(p1); // up casting using static_cast
+U& r1 = *p2; // ok
+U& r2 = *p1; // ok, up casting
+```
