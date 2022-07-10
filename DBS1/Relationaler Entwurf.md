@@ -44,6 +44,8 @@ Erstellen von `CREATE INDEX`
 
 #### Zusammenlegen
 - Prüfung von Zusammenlegbaren Entitäten bzw. Relationen
+![[Zusammenlegen.png]]
+bei 1:n, die eins an n anhängen => film(__titel__, __jahr__,...,besitzendes_studio)
 
 ## ER Syntax
 ![[ER.png]]
