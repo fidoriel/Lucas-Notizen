@@ -69,3 +69,6 @@
 - Statische Methoden => objektunabhänige Funktionen im Namensraum
 - Class namespace eindeutig => aber [[OOP Syntax#Nested Class]]
 - split in .h und .cpp => #pragma once oder #ifndef x_h #define x_h #endif
+- Kindklassen spezialiseren Eigenschaftern der Elternklassen
+- Elternklassen generalisieren Eigenschften der Kindklassen
+- 
