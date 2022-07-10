@@ -172,6 +172,23 @@ p->X::h(); // Name Spetifiziert
 p->i // i() aus X
 ```
 
+#### Mehrfache Namensnennung
+```
+class B {
+	virtual void g() {}
+};
+
+class D1 : virtual public B {
+};
+
+class D2 : virtual public B {
+};
+
+class E : public D1, public D2 {
+	public:
+		virtual void g() override {} // D::g()
+};
+```
 ## Virtual
 ```
 class P {
@@ -278,3 +295,9 @@ X* p6 = new X;
 V* p7 = dynamic_cast<V*>(p6); // does not make sense
 std::cout << "p7: " << p7 << std::endl; // p7 is nullptr
 ```
+
+## Shadowing
+Überschreiben einer Methode/Variable, ohne dass die Elternklasse [[#Virtual]] oder [[#Override]]
+
+## Casts
+### const_cast<B>(A):
