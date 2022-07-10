@@ -62,3 +62,8 @@
 - Kapselung
 - während runtime initialisiert
 - Methoden = Verhalten, Funktionalität
+- Klassenname = Typname des Objekts
+- Nichtstatische Attribute => Variablen
+- Nichtstatische Methoden => Funktionen
+- Statische Attribute => Globale vars
+- Statische Methoden => objektunabhänige Funktionen im Namensraum
