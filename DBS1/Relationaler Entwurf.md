@@ -44,3 +44,5 @@ Erstellen von `CREATE INDEX`
 - Subklassen fügen weitere Attribute hinzu
 - Akzeptieren keine Mehrfachvererbung
 ![[ER_Subklassen.png]]
+
+###  1...n
