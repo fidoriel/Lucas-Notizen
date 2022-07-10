@@ -28,6 +28,7 @@ Alle Knoten mit gleichem Elternknoten werden Geschwister genannt
 	- ist die maximale Tiefe über alle Knoten
 - Level
 	- alle Knoten mit gleicher Pfadlänge von Wurzel bis zum Knoten
+- Blattknoten Ausgangsgrad von 0
 
 ### Flussordnungszahl
 - Maß für die Verzweigung
@@ -65,13 +66,6 @@ für jeden Knoten alle Knoten angeben
 #### Kantenliste
 nur Kanten speichern
 => falls Knoten nicht verbunden sind, werden sie nicht erfasst
-
-!todo VL Montag einführung Bäume
-Blattknoten = Ausgangsgrad von 0
-
-Traversieren
-	- Depth First Search DFS
-	- Breath first search BFS
 
 ## Binary Tree
 Ausgangsgrad eines Knotens Maximal 2
