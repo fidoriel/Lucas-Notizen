@@ -1,0 +1,2 @@
+## Normalisierung
+### Funktionale Abhänigkeiten
