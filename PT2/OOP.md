@@ -71,4 +71,4 @@
 - split in .h und .cpp => #pragma once oder #ifndef x_h #define x_h #endif
 - Kindklassen spezialiseren Eigenschaftern der Elternklassen
 - Elternklassen generalisieren Eigenschften der Kindklassen
-- 
+- Nutzung der Kind Objekte als Objekte einer Elternklasse

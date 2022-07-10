@@ -7,6 +7,7 @@ class Y
 ```
 
 Klasse X kann auf private und protected von Y zugreifen
+wird nicht vererbt
 
 ## Public
 ```
@@ -49,6 +50,7 @@ class Y
 ```
 
 ## Constructor
+wird nicht vererbt
 #### Default ohne Args
 ```
 class Y
@@ -92,8 +94,8 @@ class Y
 }
 ```
 called durch Stackabbau oder `delete`
-
-
+Erst ~Kind, dann ~Eltern aufgerufen
+in Vererbungshirachien Eltern `virtual`
 ## Nested Class
 ```
 class Y
@@ -125,22 +127,96 @@ class Y
 nicht modifizierende Methoden mit `const`
 
 ## Vererbung
+### Public
 ```
-1
 class X { ... }; // keine vererbung
-2
 class Y : public X { ... }; // erbt von class X
-3
 class Z : public Y { ... }; // erbt von class Y und Transitiv von X
 ```
+Class members von X ändern ihren Zugriffsschutz nicht
+
+### Private
+```
+class X { ... }; // keine vererbung
+class Y : private X { ... };
+```
+Y erbt alle Attribute(private, protected, public) von X als private
+
+### Protected
+```
+class X { ... }; // keine vererbung
+class Y : proteted X { ... };
+```
+Y erbt private und protected von X als protected
 
 ## Virtual
 ```
-1
-class X { ... }; // keine vererbung
-2
-class Y : public X { ... }; // erbt von class X
-3
-class Z : public Y { ... }; // erbt von class Y und Transitiv von X
+class P {
+	public:
+		virtual void f() {};
+};
+
+class C : public P {
+	public:
+		virtual void f() {}; // überschreiben von f
+
+		virtual void g() { P::f(); } // verwenden von Parent f
+};
 ```
 überschreibt eine 
+
+## Abstrakte Basisklasse
+nur Funktionsskelett, keine Impl, muss zwingend geerbt bzw. überschrieben werden
+```
+class P {
+	public:
+		virtual void x() const;
+		virtual void y();
+};
+```
+
+## Override
+```
+class U {
+	public:
+		virtual void f() {}
+};
+class V : public U {
+	public:
+		void f(int x) override {} // Compiler Error
+};
+```
+
+Prüft auf Signaturgleiche f(int x) $\neq$ f()
+
+## Final
+```
+class U {
+	public:
+		virtual void f() {}
+};
+
+class V : public U {
+	public:
+		virtual void f() final {}
+};
+
+class W : public V {
+	public:
+		void f() {} // Compiler Error
+};
+```
+Final ist nich überschreibbar, selbes bei klassen
+```
+class X final {
+	public:
+		void f() {}
+};
+
+class Y : public X { // Compiler Error
+	public:
+		void g() {}
+};
+```
+
+## Casting
