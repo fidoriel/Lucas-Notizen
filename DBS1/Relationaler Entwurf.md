@@ -55,11 +55,20 @@ bei m:n ==nicht möglich==
 => Eine Relation
 
 #### ER-Stil
-Attribute als Filmattribute 
-BSP:
-Film(Titel, Jahr, Länge,Typ)
-Krimi(Titel, Jahr, Waffen)
-Zeichentrickfilm(Titel, Jahr)
+Primärschlüssel aus der Parent Relation in allen Childrelationen mit dessen Attributen:
+Film(==Titel, Jahr==, Länge,Typ)
+Krimi(==Titel, Jahr==, Waffen)
+Zeichentrickfilm(==Titel, Jahr==)
+=> ANzahl Relationen = Parent(1) + Childrelationen
+
+### OOP-Stiel
+Für JEDE Kombination eigene Relation:
+Film(Titel, Jahr, Länge, Typ)
+FilmZ(Titel, Jahr, Länge, Typ)
+FilmK(Titel, Jahr, Länge, Typ, Waffen)
+FilmZK(Titel, Jahr, Länge, Typ, Waffen)
+
+=> Relationen für jeden Teilbaum (incl. Wurzel)
 
 ## ER Syntax
 ![[ER.png]]
