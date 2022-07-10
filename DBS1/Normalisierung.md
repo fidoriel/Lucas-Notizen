@@ -7,6 +7,7 @@
 ### FDs
 - Wenn zwei Tupel in der Attributmenge X über einstimmen, stimmen sie auch im Attribut y überein:
 	$Titel, Jahr \rightarrow Länge$
+- Aussagen über das Schema, nicht die Instanz
 Triviale FDs: $Titel, Jahr \rightarrow Jahr$
 #### Dekomposition und Vereinigung
 ###### Dekomposition
