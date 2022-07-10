@@ -36,7 +36,16 @@ Erstellen von `CREATE INDEX`
 => Tuning
 => Portierung
 
-## ER
+## ER Umwandlung
+- Relationen: Attribute und FKs hinzufügen, PK unterstreichen
+- Kapazität beachten: [[Glossar#Kapazitätserhöhende Schlüssel|Kapazitätserhöhende Schlüssel]] sowie [[Glossar#Kapazitätsvermindernde Abbildung|Kapazitätsvermindernse Abbildung]]
+- Bei Doppelnamen von Attributen oder Relationen: Umbenennung
+- Falls meherere [[Relationaler Entwurf#IST]]: PK mehrfach übernehmen => Umbenennung
+
+#### Zusammenlegen
+- Prüfung von Zusammenlegbaren Entitäten bzw. Relationen
+
+## ER Syntax
 ![[ER.png]]
 ![[ER2.png]]
 
