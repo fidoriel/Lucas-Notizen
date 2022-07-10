@@ -1,2 +1,5 @@
 ## Normalisierung
-### Funktionale Abhänigkeiten
+### Warum
+- Redundante Informationen entfernen
+- ABER Rekonstruktion möglich
+- FDs: Funktionale Abhänigkeiten
