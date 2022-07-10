@@ -151,9 +151,25 @@ Y erbt private und protected von X als protected
 
 ### Mehrfach Vererbung
 ```
-class X { ... };
-class Y { ... };
-class Z : public X, public Y { ... };
+class X {
+	virtual void g() {}
+	virtual void h() {}
+	virtual void i() {}
+};
+class Y {
+	virtual void g() {}
+	virtual void h() {}
+};
+class Z : public X, public Y {
+	virtual void g() {}
+};
+
+// OK
+std::unique_ptr<D> p {new Z()};
+p->g(); // wegen g() aus D
+p->h(); // Namenskonfilikt
+p->X::h(); // Name Spetifiziert
+p->i // i() aus X
 ```
 
 ## Virtual
