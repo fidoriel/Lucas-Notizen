@@ -8,6 +8,9 @@
 Schlüsselattribute enthalten
 - Bei [[Relationaler Entwurf#ER|ER]] Unterstreichen
 
+##### Kapazitätserhöhende Schlüssel
+![[Kapazitätserhöhung.png]]
+
 ### Referentielle Integrität
 - Alle durch z.B. Fremdschlüssel referenzierten Entitäten Existieren
 - Das Tupel, welches dem PK des FK enthält darf erst gelöscht werden wenn alle FKs weg sind
