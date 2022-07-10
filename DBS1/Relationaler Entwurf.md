@@ -42,16 +42,21 @@ Erstellen von `CREATE INDEX`
 - Bei Doppelnamen von Attributen oder Relationen: Umbenennung
 - Falls meherere [[Relationaler Entwurf#IST]]: PK mehrfach übernehmen => Umbenennung
 
-#### Zusammenlegen
+### Zusammenlegen
 - Prüfung von Zusammenlegbaren Entitäten bzw. Relationen
 ![[Zusammenlegen.png]]
 bei 1:n, die eins an n anhängen => film(__titel__, __jahr__,...,besitzendes_studio)
+bei 1:1 direkte Aufteilung
+bei m:n ==nicht möglich==
+
+### Spezialisierung
+
 
 ## ER Syntax
 ![[ER.png]]
 ![[ER2.png]]
 
-### IST
+### IST Spezialisierung
 - Subklassen fügen weitere Attribute hinzu
 - Akzeptieren keine Mehrfachvererbung
 ![[ER_Subklassen.png]]
@@ -66,5 +71,7 @@ Pfeil offen: genau 1
 - Kann nicht alleine durch PK identifiziert werden
 - Benötigen FK zur identifikation => alle Attribute des PK, der starken Entität
 - Alle, die Schwache Entität referenzieren brauchen alle Attribute des PK, also PK, der Starken Entität
+
+![[SchwacheEntität.png]]
 
 

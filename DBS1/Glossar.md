@@ -4,7 +4,7 @@
 - Minimale Menge von Attributen eines Tupels => keine zwei 
 - Eindeutig fpr Indentifikation
 - Einmalig
-- Bei [[Relationaler Entwurf#IST|IST]]-Beziehungen muss die Wurzel-Superklasse sämtliche
+- Bei [[Relationaler Entwurf#IST Spezialisierung|IST]]-Beziehungen muss die Wurzel-Superklasse sämtliche
 Schlüsselattribute enthalten
 - Bei [[Relationaler Entwurf#ER|ER]] Unterstreichen
 
