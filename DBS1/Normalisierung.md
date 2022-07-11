@@ -34,4 +34,5 @@ $\nRightarrow Jahr \rightarrow Länge$
 $\nRightarrow Titel \rightarrow Länge$
 
 ### Hüllenbildung
-Hülle von {a}
+Hülle von {A}
+So lange FDs 
