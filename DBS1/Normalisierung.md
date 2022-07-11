@@ -45,7 +45,8 @@ Suchen nach einem Element, dass von nichts FD ist.
 ![[MinimalKey1.png]]
 ![[MinimalKey2.png]]
 
-## Amstrong Axiome
-
+#### Amstrong Axiome
+###### R1 Reflexivität
+$$X\supseteq Y \Rightarrow $$
 
 ## Boys Cott Normalform (BCNF)
