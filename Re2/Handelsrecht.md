@@ -53,7 +53,7 @@ Haftungsbegrenzung bei GmbH und AG auf Einlagevermögen
 #### GmbH
 - eine oder Mehrer Personen
 - Notar
-- Stammkapital 25.000€ Einlage von 12.500€ Restliche Haftung Privatvermögen bis 12500€
+- Stammkapital 25.000€ Einlage von 12.500€ Restliche Haftung Privatvermögen bis 12.500€ 
 	- UG(haftungsbeschränkt) Stammkapital aufbauen
 - Handelsregistereintrag
 - GmbH bzw. UG im Namen
