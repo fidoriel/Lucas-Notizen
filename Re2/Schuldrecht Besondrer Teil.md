@@ -51,4 +51,7 @@ Grenze => Arglist [[Strafgesetz]]
 Ausnahme Verbrauchsgüterkauf => **§476 BGB**
 Bei AGB => Haftungssauschluss **§309 Nr. 7a BGB**
 
+### Produkthaftungsgesetz
+- Produktrückruf
+
 
