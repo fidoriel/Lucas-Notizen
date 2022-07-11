@@ -36,6 +36,7 @@ $\nRightarrow Titel \rightarrow Länge$
 ### Hüllenbildung
 Hülle von {A}
 So lange FDs rekursiv der Hülle hinzufügen, bis nix mehr geht
+**Beachtung der Transitivität**
 
 Suchen nach einem Element, dass von nichts FD ist.
 ![[Huelle.png]]
@@ -43,5 +44,8 @@ Suchen nach einem Element, dass von nichts FD ist.
 #### Minimalen Schlüssel suchen
 ![[MinimalKey1.png]]
 ![[MinimalKey2.png]]
+
+## Amstrong Axiome
+
 
 ## Boys Cott Normalform (BCNF)
