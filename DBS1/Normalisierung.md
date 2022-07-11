@@ -38,3 +38,8 @@ Hülle von {A}
 So lange FDs rekursiv der Hülle hinzufügen, bis nix mehr geht
 
 Suchen nach einem Element, dass von nichts FD ist.
+![[Bildschirmfoto 2022-07-11 um 16.44.33.png]]
+
+#### Minimalen Schlüssel suchen
+![[Bildschirmfoto 2022-07-11 um 16.45.21.png]]
+![[Bildschirmfoto 2022-07-11 um 16.45.52.png]]
