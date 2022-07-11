@@ -1,1 +1,0 @@
-Konsistenter Zustand
