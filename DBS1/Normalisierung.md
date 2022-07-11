@@ -43,3 +43,5 @@ Suchen nach einem Element, dass von nichts FD ist.
 #### Minimalen Schlüssel suchen
 ![[MinimalKey1.png]]
 ![[MinimalKey2.png]]
+
+## Boys Cott Normalform (BCNF)
