@@ -50,11 +50,16 @@ Verein, eK, OHG, GBR
 Einfache Haftung => Kredite
 
 ###### GbR 
-§705 gegründet bei Einigung
+- §705 gegründet bei Einigung
 
 ###### OHG
-§105 HGB
-GbR der Kaufleute
+- §105 HGB
+- GbR der Kaufleute
+
+###### KG
+- §161 HGB
+- Kommanditist Geldeinlage beschränkte Haftung
+- Komplementär haftet voll
 
 ### Kapitalgesellschaften
 Haftungsbegrenzung bei GmbH und AG auf Einlagevermögen
