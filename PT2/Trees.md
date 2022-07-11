@@ -111,6 +111,13 @@ Unterbefüllt?
 Vollbesetzter Baum mindestens n/2 Elemente Verschwinden
 b+ Baum Nur indices Verändern
 
+## Heap
+-  Von Kindbäumen aufgefüllt
+- Kann in Array gespeichert werden
+- Nächste Ebene Doppelt so weit entfernt
+- $O(log(n))$
+- 
+
 ## K-Tree
 N-Dimensional
 
