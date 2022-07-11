@@ -34,5 +34,3 @@ $\nRightarrow Jahr \rightarrow Länge$
 $\nRightarrow Titel \rightarrow Länge$
 
 ### Hüllenbildung
-
-
