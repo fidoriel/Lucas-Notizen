@@ -38,6 +38,17 @@ Alle Sperren einer Transaktion erfolgen vor der ersten Freigabe einer Sperre; es
 #### Deadlock
 - Serialiserer erkennt und mach rollback
 
+### Optimistisches, Pessimistisches Unlocking
+##### Optimistisch
+- nach der letzten Operation
+- gute Performance
+- Anomalien bei Rollback
+	- Weil schon weitergearbeitet wurde
+
+#### Pessimistisch
+- Unlock nach commit
+	- Keine Anomalien
+
 ### Konfliktgraph
 $T_2$ liest alten Wert deswegen $T_2$->$T_1$
 Wenn Zyklenfrei([[Trees]]) => Konfliktserialisierbar
