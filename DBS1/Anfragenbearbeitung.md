@@ -29,12 +29,15 @@ Projektion: 1
 Selektion: Ausgabe/Eingabe
 Join: Jointupel/Kreuzprodukt
 
-Selektionsfaktor auf Tupel
+Projektion
+sf = 1
+Selektionsfaktor (geschätzt, da Ergebnis nicht bekannt) auf Tupel
 sf=1/|R|
+sf= |sigma(R)/|R|
 Selektion auf ein Attribut A mit m verschiedenen Werden
 sf = (|R|/m)/|R| = 1/|R|
 Equijoin
-sf = |R j S|/|R x S| = |S|/(|R|*|S|)
+sf = |R j S|/|R x S| = |S|/(|R|*|S|) = 1/|R|
 
 Abweichung von Normalverteilung sorgt für schlechte Schätzungen
 => Histogramm
