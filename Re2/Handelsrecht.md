@@ -47,6 +47,8 @@ Handelsbrauch der stillschweigenden Zustimmung nach **§346 HGB**
 ###### Personengesellschaft
 Verein, eK, OHG, GBR
 
+Einfache Haftung => Kredite
+
 ###### GbR 
 §705 gegründet bei Einigung
 
