@@ -71,6 +71,7 @@ nur Kanten speichern
 ## Binary Tree
 Ausgangsgrad eines Knotens Maximal 2
 v(Knoten) = e(Kanten) - 1
+Linker Ausgangskonten kleiner als rechter Ausgangsknoten
 
 ## Rot Schwarz Baum
 Wurzen ist Schwarz
@@ -116,7 +117,6 @@ b+ Baum Nur indices Verändern
 - Kann in Array gespeichert werden
 - Nächste Ebene Doppelt so weit entfernt
 - $O(log(n))$
-- 
 
 ## K-Tree
 N-Dimensional
