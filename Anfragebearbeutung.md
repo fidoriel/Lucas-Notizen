@@ -19,3 +19,17 @@ Ablaufplan bestehend aus einer Reihe von Transaktionen
 
 Serieller Schedule
 Schedule in dem Transaktionen vollständig hintereinander Ausgeführt werden.
+
+Serialisirbarer Schedule
+Schedule dessen Effekt identisch zu einem belibigen anderen schedule ist
+
+Konfliktäquivivalenter Schedule
+Zwei schedules bei denne die Reihenfolge aller konfliktgierender Aktion gleich ist.
+
+Konfliktserialisierbarer Schedule
+Schedule , der konfliktäquivivalent zu einem seriellen schedule ist. 
+
+Legal
+wenn Gesperrtes objekt nicht erneut gesperrt ist.
+
+2PL
