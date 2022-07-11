@@ -4,10 +4,11 @@ G ist zusammenhängend und zyklenfrei (azyklisch)
 Knoten $V=\{v_1,\ldots,v_n\}$
 Kanten $E = \{e_1, \ldots,e_n\} \subseteq V \times V$
 - falls $G$ nicht leer
-    $n = m+1$
+    $n = m+1$ oder $knoten = kanten + 1$
 - zu je zwei Knoten existiert genau ein Pfad, der beide Knoten verbindet
 - $G$ ist minimal zusammenhängend (eine Kante weniger => nicht zusammenhängend)
 - $G$ ist maximal azyklisch (eine Kante mehr => nicht azyklisch)
+	- d.H. keine Kreisform
 
 ## Knoten
 - ein Knoten $v$ ist inzident mit Kante $e$, wenn $v \in e$ Wurzel
@@ -44,13 +45,13 @@ Iteration durch alle Knoten eines Baums
 #### Pruning
 Auslassen von Unterbäumen
 
-###### Tiefensuche
+###### Tiefensuche depth first search DFS
 so tief wie möglich im Baum hinabsteigen
 => bis zu einem Blatt
 => erst dann Geschwisterknoten
 => durch Stack
 
-###### Breitensuche
+###### Breitensuche breath first search
 erst alle Knoten eines Levels, dann Knoten der darunter folgenden Level
 => durch Queue
 
