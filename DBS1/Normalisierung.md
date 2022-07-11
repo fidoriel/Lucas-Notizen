@@ -47,6 +47,17 @@ Suchen nach einem Element, dass von nichts FD ist.
 
 #### Amstrong Axiome
 ###### R1 Reflexivität
-$$X\supseteq Y \Rightarrow $$
+$$X\supseteq Y \Rightarrow X \rightarrow Y$$
+###### R2 Akkumulation
+$${X \rightarrow Y} \Rightarrow XZ \rightarrow YZ$$
+###### R3 Transitivität
+$${X \rightarrow Y, Y \rightarrow Z} \Rightarrow X \rightarrow Z$$
+###### R4 Dekomposition
+$${X\rightarrow YZ} \Rightarrow X\rightarrow Y$$
+###### R5 Vereinigung
+$${X \rightarrow Y, X \rightarrow Z} \Rightarrow X \rightarrow YZ$$
+###### R6 Pseudotransitivität
+$${X \rightarrow Y, WY \rightarrow Z} \Rightarrow WX\rightarrow Z$$
 
-## Boys Cott Normalform (BCNF)
+## Boyce Codd Normalform (BCNF)
+3NF  
