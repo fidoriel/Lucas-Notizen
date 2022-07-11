@@ -52,3 +52,10 @@ Alle Sperren einer Transaktion erfolgen vor der ersten Freigabe einer Sperre; es
 ### Konfliktgraph
 $T_2$ liest alten Wert deswegen $T_2$->$T_1$
 Wenn Zyklenfrei([[Trees]]) => Konfliktserialisierbar
+
+### Parse Baum
+- Vorne mit root Anfangen
+- jeden Operator in Teilbäume
+
+- Gewicht an Vertices anhängen
+	- Kosten nach oben Ausrechnen
