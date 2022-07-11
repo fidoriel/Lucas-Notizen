@@ -5,7 +5,8 @@
 #### Untersuchung eines Handelskaufs **§377 HGB**
 Handelsgeschäft nach **§343 HGB**
 - Überprüfung der Ware unverzüglich
-	- Meldung über Mangel
+	- Meldung über Mangel (rügen)
+		- Wareneingangsprüfung wenn immer gut, Sichtprobe
 	- Stillschweigen als Zustimmung zu Mangelfrei
 	- Später: Unverzügliche Anzeige
 
@@ -57,4 +58,9 @@ Haftungsbegrenzung bei GmbH und AG auf Einlagevermögen
 - Handelsregistereintrag
 - GmbH bzw. UG im Namen
 - Geschäftsführer
+
+## Prokura
+- Prokura muss ausdrücklich erteilt werden
+	- Darf Unternehmer vollumfänglich vertreten §49 HGB
+		- Grundstücke Verkaufen benötigt erneute Sonder
 
