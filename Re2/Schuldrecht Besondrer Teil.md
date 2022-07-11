@@ -54,5 +54,6 @@ Bei AGB => Haftungssauschluss **§309 Nr. 7a BGB**
 ### Produkthaftungsgesetz
 - Produktrückruf
 - Inverkehrbringer haftet für Schäden des Produkts
+- Haftbar über Sachmachngel bei Wissen
 
 
