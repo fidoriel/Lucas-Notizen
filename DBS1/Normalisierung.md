@@ -60,4 +60,5 @@ $${X \rightarrow Y, X \rightarrow Z} \Rightarrow X \rightarrow YZ$$
 $${X \rightarrow Y, WY \rightarrow Z} \Rightarrow WX\rightarrow Z$$
 
 ## Boyce Codd Normalform (BCNF)
-3NF  
+In a Nutshell:
+-   Die linke Seite jeder gültigen, nicht-trivialen FD muss ein Superschlüssel sein.
