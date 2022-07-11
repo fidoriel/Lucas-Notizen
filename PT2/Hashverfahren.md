@@ -21,6 +21,7 @@ Normalerweise weder Injektiv, noch Bijektiv
 
 ### Divisionsrestverfahren
 h(k) = k mod m
+m => Primzahl
 
 
 
