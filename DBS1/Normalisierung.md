@@ -36,3 +36,5 @@ $\nRightarrow Titel \rightarrow Länge$
 ### Hüllenbildung
 Hülle von {A}
 So lange FDs rekursiv der Hülle hinzufügen, bis nix mehr geht
+
+Suchen nach einem Element, dass von nichts FD ist.
