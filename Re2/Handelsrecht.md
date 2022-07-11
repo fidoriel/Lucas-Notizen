@@ -47,6 +47,9 @@ Handelsbrauch der stillschweigenden Zustimmung nach **§346 HGB**
 ###### Personengesellschaft
 Verein, eK, OHG, GBR
 
+###### GbR 
+§705 gegründet bei Einigung
+
 ### Kapitalgesellschaften
 Haftungsbegrenzung bei GmbH und AG auf Einlagevermögen
 
