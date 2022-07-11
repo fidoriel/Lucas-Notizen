@@ -50,6 +50,10 @@ Verein, eK, OHG, GBR
 ###### GbR 
 §705 gegründet bei Einigung
 
+###### OHG
+§105 HGB
+GbR der Kaufleute
+
 ### Kapitalgesellschaften
 Haftungsbegrenzung bei GmbH und AG auf Einlagevermögen
 
