@@ -23,7 +23,11 @@ Normalerweise weder Injektiv, noch Bijektiv
 h(k) = k mod m
 m => Primzahl
 
+###### Verfahren:
+- mehrere Prim M values
 
+
+### Cryptographie
 
 
 
