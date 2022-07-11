@@ -36,3 +36,5 @@ wenn Gesperrtes objekt nicht erneut gesperrt ist.
 Alle Sperren einer Transaktion erfolgen vor der ersten Freigabe einer Sperre; es ermöglicht Konfliktserialisierbarkeit
 
 Konfliktgraph
+$T_2$ liest alten Wert deswegen $T_2$->$T_1$
+Wenn Zyklenfrei([[Trees]]) => Konfliktserialisierbar
