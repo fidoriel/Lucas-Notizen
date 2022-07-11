@@ -62,5 +62,6 @@ Haftungsbegrenzung bei GmbH und AG auf Einlagevermögen
 ## Prokura
 - Prokura muss ausdrücklich erteilt werden
 	- Darf Unternehmer vollumfänglich vertreten §49 HGB
-		- Grundstücke Verkaufen benötigt erneute Sonder
+		- Grundstücke Verkaufen benötigt erneute Genehmigung
+		- Beschränkung der Prokura nach außen nich möglich §50 HGB
 
