@@ -39,7 +39,7 @@ Nutzungsersatz trotz Gewährleistungsanspruch aus **§346 Abs. 2 Nr. 1**
 => Privat gesperrt durch **§475 Abs3. BGB**
 
 ###### Beweislastumkehr 
-**§477 BGB** innerhalb eines jahres wird vermutet, dass der Mangel schon bei Übergabe existiert hat
+**§477 BGB** innerhalb eines Jahres wird vermutet, dass der Mangel schon bei Übergabe existiert hat
 
 
 #### Pflichtverletzung (= Sachmangel bei Gefahrübergang)
@@ -55,5 +55,8 @@ Bei AGB => Haftungssauschluss **§309 Nr. 7a BGB**
 - Produktrückruf
 - Inverkehrbringer haftet für Schäden des Produkts
 - Haftbar über Sachmachngel bei Wissen
+
+- Inverkehrbringer Haftet
+	- nach [[#Beweislastumkehr]] §478 Rückgriff zum Großhändler
 
 
