@@ -34,3 +34,4 @@ wenn Gesperrtes objekt nicht erneut gesperrt ist.
 
 2PL
 Alle Sperren einer Transaktion erfolgen vor der ersten Freigabe einer Sperre; es ermöglicht Konfliktserialisierbarkeit
+
