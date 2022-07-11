@@ -61,7 +61,7 @@ Einfache Haftung => Kredite
 - Kommanditist Geldeinlage beschränkte Haftung
 - Komplementär haftet voll
 
-- GmbH & Co KG => 
+- GmbH & Co KG => Komplementäre sind haftungsbeschränkte GmbG
 
 ### Kapitalgesellschaften
 Haftungsbegrenzung bei GmbH und AG auf Einlagevermögen
