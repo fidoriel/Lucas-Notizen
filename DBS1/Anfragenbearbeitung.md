@@ -25,7 +25,7 @@ $\cup, \cap, \times und \bowtie$ => kommutativ und assoziativ
 ### Optimierung
 
 Kosten oder Regelbasiert
-- Logische Optimierung => beste 
+- Logische Optimierung => bester Ausführungsplan 
 Daten Resourcen nicht Exakt bekannt
 __nicht zu lange optimieren => kein Gewinn__
 
