@@ -71,4 +71,13 @@ Assoziative Container
 #### Unordered Map
 - Schlüssel intern über Hash Table in Buckets
 - Keine Sortierte Traversierung
-- Schneller Als [[#Map]] jedoch mehr Speicher
+- Schneller als [[#Map]] jedoch mehr Speicher
+
+### Set
+- Speichert Schlüssel
+- enthalten oder nicht enthalten
+- $O(log𝑛)$
+
+### Dynamisches Array
+- => vector
+- 
