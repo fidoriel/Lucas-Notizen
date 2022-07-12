@@ -86,7 +86,11 @@ printLine(7); // calls printLine<int>(7);
 ```
 try
 {
-
+	if(1)
+		throw x::error(123)
 }
-catch (exception )
+catch (x::error& e)
+{
+}
+
 ```
