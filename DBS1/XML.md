@@ -47,3 +47,10 @@ keine PKs, FKs
 ![[XPath.png]]
 
 ![[XPathSyntax.png]]
+![[XPathFunctions.png]]
+**BSP**
+```/bookstore/book[author/name='Plato']``` mit Pfadangabe
+```//author[first-name='Herman']/last-name``` Bedingung beeinflusst Navigation
+
+
+### XPath
