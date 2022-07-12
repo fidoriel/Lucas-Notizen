@@ -43,4 +43,5 @@ keine PKs, FKs
 ```
 
 ## Anfage
-### XQuery
+### XPath
+![[XPath.png]]
