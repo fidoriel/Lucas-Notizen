@@ -25,7 +25,8 @@ $\cup, \cap, \times und \bowtie$ => kommutativ und assoziativ
 ### Optimierung
 
 Kosten oder Regelbasiert
-- Logische Optimierung => bester Ausführungsplan 
+- Logische Optimierung => bester Ausführungsplan => segmantisch äquivivalenter Ausdruck
+- Physische Optimierung => beste Impelmentierung z.B. Index, Scan Acces to Table, Nested Loop Join
 Daten Resourcen nicht Exakt bekannt
 __nicht zu lange optimieren => kein Gewinn__
 
