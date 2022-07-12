@@ -80,4 +80,6 @@ Assoziative Container
 
 ### Dynamisches Array
 - => vector
-- 
+- reserviert speicher
+- wenn zu groß: neuallocation und kopieren
+- reserve und shrink_to_fit

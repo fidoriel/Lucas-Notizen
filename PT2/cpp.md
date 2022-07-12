@@ -115,6 +115,21 @@ int main () {
   return 0;
 }
 ```
+
+### algorithm
+#### Suchen
+```
+std::vector<int> myvector;
+std::vector<int>::iterator it = std::find_if(myvector.begin(), myvector.end(), [](int i){ return i % 2; });
+```
+immer `it != myvector.end()` prüfen
+#### Duplicate elimination
+```
+std::vector<int>::iterator it = std::unique(myvector.begin(), myvector.end());
 ```
 
+#### weitere:
+```
+std::sort(x.begin(), x.end());
+merge(v1.begin(),v1.end(),v2.begin(),v2.end(),target.begin());
 ```
