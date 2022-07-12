@@ -33,7 +33,7 @@
 • Klasse: Objekt => Atribute, Typen und Methoden
 • Schnittstelle: rpivate, public, protected
 • Kapselung: nur Public Sichtbar nach außen
-• Konstruktor: Initialisierungfunktion
+• Konstruktor: Initialisierung[[cpp#Function Specials|funktion]]
 • Destruktion: Zerstört Objekt und räumt auf
 
 #### Kategorien
