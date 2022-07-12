@@ -65,4 +65,13 @@ void f (int n) {;} // overloading
 void f (int n, int m) {;} // overloading
 ```
 
-# 02/50
+### Generic/Tamplating
+```
+template<typename T>
+void printLine(T s) { std::cout << s; }
+
+// calling
+printLine<double>(1);
+printLine<>('a'); // printLine<char>('a');
+printLine(7); // calls printLine<int>(7);
+```
