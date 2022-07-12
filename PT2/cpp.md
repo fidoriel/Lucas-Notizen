@@ -87,10 +87,34 @@ printLine(7); // calls printLine<int>(7);
 try
 {
 	if(1)
-		throw x::error(123)
+		throw 1;
 }
-catch (x::error& e)
+catch (int x)
 {
 }
+```
+Custom Exception
+```
+class myexception: public exception
+{
+  virtual const char* what() const throw()
+  {
+    return "My exception happened";
+  }
+} myex;
+
+int main () {
+  try
+  {
+    throw myex;
+  }
+  catch (exception& e)
+  {
+    cout << e.what() << '\n';
+  }
+  return 0;
+}
+```
+```
 
 ```
