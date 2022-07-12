@@ -62,3 +62,15 @@ $${X \rightarrow Y, WY \rightarrow Z} \Rightarrow WX\rightarrow Z$$
 ## Boyce Codd Normalform (BCNF)
 In a Nutshell:
 -   Die linke Seite jeder gültigen, nicht-trivialen FD muss ein Superschlüssel sein.
+
+### 1NF
+Atomare Werte => Adresse Teilen
+
+### 2NF
+Keine Abhänigkeiten vom Teil eines Schlüssels
+
+### 3NF
+keine Transitiven Abhänigkeiten
+
+### 3NF und BCNF
+Keine transitiven Anhänigkeiten innerhalb eines Schlüssels
