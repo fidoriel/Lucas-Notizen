@@ -15,5 +15,7 @@ Document Object Model [[Trees|Tree]] Pasrsing
 ### DTD
 ```
 <!-- xyz DTD -->
-<!El
+<!ATTLIST x (y? z)>
+<!ELEMENT y (#PCDATA)>
+<!ELEMENT z CDATA #REQUIRED>
 ```
