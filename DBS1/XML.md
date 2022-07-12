@@ -11,3 +11,9 @@ SAX Simple API for XML
 - Ruft Callback auf wenn Tag gelesen
 
 Document Object Model [[Trees|Tree]] Pasrsing
+
+### DTD
+```
+<!-- xyz DTD -->
+<!El
+```
