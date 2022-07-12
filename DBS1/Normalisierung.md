@@ -61,3 +61,4 @@ $${X \rightarrow Y, WY \rightarrow Z} \Rightarrow WX\rightarrow Z$$
 
 ## Boyce Codd Normalform (BCNF)
 3NF  
+[Sovol Elite Blackout Cover für Harz 3D-Drucker Gehäuse , Schutz vor Sonnenlicht, Staub, PVC-laminierte Polyester-Aufbewahrungshülle, passend für Photon/Photon S/Mars/Mars Pro/Mars 2 Pro/Mars 3 : Amazon.de: Gewerbe, Industrie & Wissenschaft](https://www.amazon.de/Sovol-3D-Geh%C3%A4use/dp/B091TQ4VHZ/ref=sr_1_24?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=7F0NATI6JHMZ&keywords=elegoo+mars+cover&qid=1657607091&sprefix=elegoo+mars+cover%2Caps%2C59&sr=8-24)
