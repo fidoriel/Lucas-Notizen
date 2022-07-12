@@ -75,3 +75,9 @@ printLine<double>(1);
 printLine<>('a'); // printLine<char>('a');
 printLine(7); // calls printLine<int>(7);
 ```
+
+### Namensräume
+- Global `::X`
+- namespace: `namespace x{ namespace y {...}}`
+	- Unbenannt: `namespace {...}`
+	- `using namespace std;`
