@@ -84,5 +84,9 @@ printLine(7); // calls printLine<int>(7);
 
 ### Errors, Failiures, Faults
 ```
+try
+{
 
+}
+catch (exception )
 ```
