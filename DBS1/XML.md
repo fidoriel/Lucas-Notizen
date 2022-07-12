@@ -3,7 +3,7 @@ LEI schema jede Entität in eine Zeile einer CSV
 => Geschachteltes XML
 
 XML Bringt eigenes schema mit
-Leere Daten <></> oder einfach weglassen
+Leere Daten ```<></>``` oder einfach weglassen
 
 Mixed Content ist schwig, unstrukturierte Daten (Text)
 Semistrukturiert => unwichtiges einfach weglassen
@@ -45,3 +45,5 @@ keine PKs, FKs
 ## Anfage
 ### XPath
 ![[XPath.png]]
+
+![[XPathSyntax.png]]
