@@ -54,3 +54,4 @@ keine PKs, FKs
 
 
 ### XPath
+![[XQuery.png]]
