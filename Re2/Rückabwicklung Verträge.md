@@ -26,5 +26,3 @@ nach **§312i BGB**
 	- Beschreibung
 - Buttenlösung => Jetzt kaufen
 - Eingangsbestätigung
-
-
