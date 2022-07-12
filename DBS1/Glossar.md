@@ -8,6 +8,10 @@
 Schlüsselattribute enthalten
 - Bei [[Relationaler Entwurf#ER|ER]] Unterstreichen
 
+### Schlüssel vs. Superschlüssel
+- Schlüssel: irgendwas ist abhänig von Schlüssel
+- Alles ist abhänig von Superschlüssel
+
 ##### Kapazitätserhöhende Schlüssel
 ![[Kapazitätserhöhung.png]]
 ##### Kapazitätsvermindernde Abbildung
