@@ -17,6 +17,8 @@
 #### Dekomposition und Vereinigung
 ###### Dekomposition
 $A_1, A_2,...A_n \rightarrow B_1, B_2,...B_m \Rightarrow A_1, A_2,...A_n \rightarrow B_i$ für $i=1,...m$
+=> Bewahrung der Wiederherstellbarkeit der Daten
+=> Bewahrung der FDs
 ###### Vereinigung
 $A_1, A_2,...A_n \rightarrow B_i$ für $i=1...m \Rightarrow A_1, A_2,...A_n \rightarrow B_1, B_2,...B_m$ 
 
@@ -68,9 +70,11 @@ Atomare Werte => Adresse Teilen
 
 ### 2NF
 Keine Abhänigkeiten vom Teil eines Schlüssels
+![[2NF.png]]
 
 ### 3NF
 keine Transitiven Abhänigkeiten
+![[3NF.png]]
 
 ### 3NF und BCNF
 Keine transitiven Anhänigkeiten innerhalb eines Schlüssels
