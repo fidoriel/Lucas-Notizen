@@ -1,3 +1,4 @@
+## Programmierung/Schemata
 LEI schema jede Entität in eine Zeile einer CSV
 => Geschachteltes XML
 
@@ -12,10 +13,31 @@ SAX Simple API for XML
 
 Document Object Model [[Trees|Tree]] Pasrsing
 
+### Probleme
+- keine Referentielle Intregrität
+keine PKs, FKs
+
+- bei Schachtelung
+	=> keine m:n Beziehung => Nutzung von IDs 
+	
 ### DTD
 ```
 <!-- xyz DTD -->
 <!ATTLIST x (y? z)>
 <!ELEMENT y (#PCDATA)>
 <!ELEMENT z CDATA #REQUIRED>
+```
+
+### XML Schema
+.xsd
+```
+<xs:complexType name="X">
+	<xs:sequence>
+		<xs:choice>
+			<xs:element ref="Y"
+			<xs:element ref="Z"
+		</xs:choice>
+	</xs:sequence>
+	<xselement ref="A"
+</xs:complexType>
 ```
