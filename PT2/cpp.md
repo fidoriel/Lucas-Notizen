@@ -81,3 +81,5 @@ printLine(7); // calls printLine<int>(7);
 - namespace: `namespace x{ namespace y {...}}`
 	- Unbenannt: `namespace {...}`
 	- `using namespace std;`
+
+### Errors, Failiures, Faults

@@ -53,5 +53,6 @@ keine PKs, FKs
 ```//author[first-name='Herman']/last-name``` Bedingung beeinflusst Navigation
 
 
-### XPath
+### XQuery
 ![[XQuery.png]]
+XQueryX übersetzt XQuery in XML => Automatisch, nichtmehr einfach von Menschen erstellbar
