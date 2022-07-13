@@ -211,6 +211,9 @@ WHERE StudioName NOT IN
 - BLOB => Binary Large Object
 - DATE
 
+###### Casting
+`CAST(i AS VARCHAR)`
+
 ## Tabellen
 `CREATE TABLE X(X BOOLEAN, Y VARCHAR(10) DEFAULT 'abc', Datum DATE);`
 `DROP TABLE X;`
@@ -242,3 +245,36 @@ ON Film(Jahr, Studioname); // Reihenfolge wichtig für Baum
 DROP INDEX JahrIndex;
 ```
 Indexwahl gut überlegt? Speicherbedarf
+
+Anfrage          | Kein Index | SchauspielerIndex | Filmindex | Beide Indizes
+---------------- | ---------- | ----------------- | --------- | --------------
+Schauspieler = s | 10 | 4 | 10 | 4
+FilmTitel = t AND FilmJahr = j | 10 | 10 | 4 | 4
+INSERT INTO spielt_in | 2 | 4 | 4 | 6
+Gesamtkosten | 2+8p1+8p2 | 4+6p2 | 4+6p1 | 6-2p1-2p2
+p1: Anteil Anfrage 1
+p2: Anteil Anfrage 2
+1‒p1‒p2: Anteil Anfrage 3
+!todo
+
+## Sichten
+Nutzer sollen nicht Merken, dass sie auf einer Sicht sind
+Inertions? => Manchmal OK => verstößt gegen sicht?
+```
+CREATE VIEW ParamountFilme AS
+SELECT Titel, Jahr, Zahl 16
+FROM Film
+WHERE StudioName = ‘Paramount‘;
+```
+Mehere Tabellen in einer Sicht
+
+Umbenennung der Attribute
+```
+CREATE VIEW FilmeProduzenten(FilmTitel, Produzentenname) AS
+SELECT Titel, Name
+FROM
+Film, Manager
+WHERE ProduzentID = ManagerID;
+```
+
+#### Tupelmigration
