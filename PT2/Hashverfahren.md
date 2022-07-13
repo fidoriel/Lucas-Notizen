@@ -7,7 +7,7 @@ Normalerweise weder Injektiv, noch Bijektiv
 ##### Hash Key
 >arithmetisch ganzzahliger Schlüssel für ein Objekt
 
-###### Hash Function
+###### Hash [[cpp#Function Specials|Function]]
 > Schlüssel Basiert auch Charakteristischen Eigenschaften des Objekts
 
 ###### Hash Table
@@ -39,6 +39,7 @@ m => Primzahl
 
 
 ### Cryptographie
+=> nöglichst keine Collisionen
 
 
 
