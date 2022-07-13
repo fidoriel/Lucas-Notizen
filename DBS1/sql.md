@@ -95,9 +95,10 @@ FROM Schauspieler NATURAL JOIN Manager // joint auf gleichen Attributsnamen
 
 ### Mengenoperationen
 ==ALLES KLAMMERN==
-- Vereinigung: UNION => wie logisches ODER
-- Schnittmenge: INTERSECT => wie logisches UND
-- Differenz: EXCEPT / MINUS => Multimenge: EXCEPT ALL
+- Vereinigung: ``UNION`` => wie logisches ``ODER``
+- Vereinigung mit Duplication `UNION ALL`
+- Schnittmenge: ``INTERSECT`` => wie logisches ``UND``
+- Differenz: ``EXCEPT / MINUS`` => Multimenge: ``EXCEPT ALL``
 
 ```
 (SELECT * FROM X)
@@ -115,3 +116,29 @@ WHERE ManagerID =
 	FROM Film
 	WHERE Titel = ‘Star Wars‘ AND Jahr = ‘1977‘ );
 ```
+
+Subanfregen in FROM nur mit alias
+```
+SELECT M.Name
+FROM Manager M, (SELECT ProduzentID AS ID
+	FROM Film, spielt_in
+	WHERE Titel = FilmTitel AND
+	Jahr = FilmJahrAND
+	Schauspieler = ‘Harrison Ford‘) Produzent
+WHERE M.ManagerID = Produzent.ID;
+```
+
+Korrelierte Subanfragen => Variablen vom äußeren Scope, ausgeführt für jedes Tupel
+```
+SELECT Titel, Jahr
+FROM Film Alt
+WHERE Jahr < ANY
+	( SELECT Jahr
+	FROM Film
+	WHERE Titel = Alt.Titel);
+```
+
+### Selectbedingungen
+`SELECT DISTINCT Attributnamen` => Teuer
+
+#### Aggregation
