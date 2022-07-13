@@ -1,4 +1,4 @@
-## Syntax
+## Querieng
 **SQL IST NICHT CASE SENSITIVE und endet mit ;**
 
 `SELECT` relation.spaltenname
@@ -7,10 +7,12 @@
 Relationsname bei uneindeutigen Attributnamen
 
 ###### Lesereihenfolge
-1. FROM-Klausel
-2. WHERE-Klausel
-3. GROUP BY-Klausel
-4. SELECT-Klausel
+6. SELECT
+1. FROM
+2. WHERE
+3. GROUP BY
+4. HAVING
+5. ORDER BY
 
 ##### Alias
 `FROM X Y === FROM X AS Y`
@@ -159,3 +161,18 @@ FROM Film
 GROUP BY StudioName
 ```
 ==Nicht aggregierte SELECT Attribute müssen bei GROUP BY erscheinen==
+
+#### HAVING
+==BENÖTIGT GROUP BY==
+```
+SELECT Name
+FROM Manager, Film
+WHERE ManagerID = ProduzentID
+GROUP BY Name
+HAVING SUM(Länge) > 1000
+```
+HAVING Aggregation bezieht sich auf aktuelle Gruppe
+Nur Gruppierungsattribute dürfen un-aggregiert in HAVING Klausel erscheinen
+(wie bei SELECT-Klausel)
+
+## Insertion/Creation
