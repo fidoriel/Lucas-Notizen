@@ -1,5 +1,5 @@
 ## Syntax
-**SQL IST NICHT CASE SENSITIVE**
+**SQL IST NICHT CASE SENSITIVE und endet mit ;**
 
 `SELECT` relation.spaltenname
 `FROM` relation
@@ -53,3 +53,18 @@ Prüfung auf NULL:
 X IS NULL
 
 Vergleiche mit NULL => Unknown
+x+3 ergibt NULL.
+NULL+3 ist kein zulässiger Ausdruck.
+x = 3 ergibt UNKNOWN
+
+###### Rechenregeln
+TRUE = 1
+FALSE = 0
+UNKNOWN = 1/2
+
+AND: Minimum der beiden Werte
+OR: Maximum der beiden Werte
+NOT: 1 – Wert
+
+### Stortierung
+ORDER BY Länge ASC, Titel DESC;
