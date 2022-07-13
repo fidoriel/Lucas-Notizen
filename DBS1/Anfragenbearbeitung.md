@@ -52,6 +52,8 @@ Hauptspeichergröße?
 
 Wie groß ist der Qutput des nächsten Operators?
 
+Durchführung einer [[Optimierung]]
+
 #### Selektivität
 Kosten 
 Projektion: 1

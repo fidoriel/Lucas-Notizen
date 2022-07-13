@@ -1,2 +1,8 @@
-![[Pasted image 20220712221740.png]]
-![[Pasted image 20220712221751.png]]
+## Optimierung durchführen
+![[Opt1.png]]
+![[Opt2.png]]
+![[Opt3.png]]
+![[Opt4.png]]
+![[Opt5.png]]
+![[Opt6.png]]
+![[Opt7.png]]
