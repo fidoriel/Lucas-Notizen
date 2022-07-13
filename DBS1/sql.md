@@ -4,6 +4,10 @@
 `SELECT` relation.spaltenname
 `FROM` relation
 `WHERE` spaltenname Vergleichsoperator 'String'
+Relationsname bei uneindeutigen Attributnamen
+
+##### Alias
+`FROM X Y === FROM X AS Y`
 
 ###### Erweiterung der Projektion
 ``SELECT`` Titel, Länge * 0.016667 ``AS`` Stunden, ‘std.‘ ``AS`` inStunden
@@ -33,38 +37,45 @@ Star Wars und Star Trek
 `*` Sequenz von 0 ode rmehr
 
 ### Zeit
-Datumskonstante:
-- DATE ‘YYYY-MM-DD‘
-- DATE ‘1948-05-14‘
+###### Datumskonstante:
+- ``DATE`` ‘YYYY-MM-DD‘
+- ``DATE`` ‘1948-05-14‘
 
-Zeitkonstante
-- TIME ‘HH:MM:SS.S‘
-- TIME ‘15:00:02.5‘
+###### Zeitkonstante
+- ``TIME`` ‘HH:MM:SS.S‘
+- ``TIME`` ‘15:00:02.5‘
 
-Timestamp
-TIMESTAMP ‘1948-05-14 15:00:02.5‘
-
+###### Timestamp
+``TIMESTAMP`` ‘1948-05-14 15:00:02.5‘
 Vergleiche möglich
 
 ### NULL
-NULL oder ⊥
+``NULL`` oder ⊥
 
-Prüfung auf NULL:
-X IS NULL
+Prüfung auf ``NULL``:
+X ``IS NULL``
 
-Vergleiche mit NULL => Unknown
-x+3 ergibt NULL.
-NULL+3 ist kein zulässiger Ausdruck.
-x = 3 ergibt UNKNOWN
+Vergleiche mit ``NULL`` => ``Unknown``
+x+3 ergibt ``NULL``.
+``NULL``+3 ist kein zulässiger Ausdruck.
+x = 3 ergibt ``UNKNOWN``
 
 ###### Rechenregeln
-TRUE = 1
-FALSE = 0
-UNKNOWN = 1/2
+``TRUE`` = 1
+``FALSE`` = 0
+``UNKNOWN`` = 1/2
 
-AND: Minimum der beiden Werte
-OR: Maximum der beiden Werte
-NOT: 1 – Wert
+``AND``: Minimum der beiden Werte
+``OR``: Maximum der beiden Werte
+``NOT``: 1 – Wert
 
 ### Stortierung
-ORDER BY Länge ASC, Titel DESC;
+``ORDER BY`` Länge ``ASC``, Titel ``DESC``;
+
+### Join und Kreuzprodukt
+```
+SELECT Name
+FROM Film, Manager // Kreuzprodukt
+WHERE Titel = ‘Star Wars‘ // Selektionsbedingung
+AND ProduzentID = ManagerID; // Joinbedingung
+```
