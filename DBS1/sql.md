@@ -6,6 +6,12 @@
 `WHERE` spaltenname Vergleichsoperator 'String'
 Relationsname bei uneindeutigen Attributnamen
 
+###### Lesereihenfolge
+1. FROM-Klausel
+2. WHERE-Klausel
+3. GROUP BY-Klausel
+4. SELECT-Klausel
+
 ##### Alias
 `FROM X Y === FROM X AS Y`
 
@@ -142,3 +148,14 @@ WHERE Jahr < ANY
 `SELECT DISTINCT Attributnamen` => Teuer
 
 #### Aggregation
+`SUM, AVG, MIN, MAX, COUNT, VAR, STDDEV`
+`SELECT COUNT(DISTINCT Schauspieler) AS Count_Schauspieler FROM spielt_in`
+``NULL`` wird Ignoriert
+
+### Grouping
+```
+SELECT StudioName, SUM(Länge)
+FROM Film
+GROUP BY StudioName
+```
+==Nicht aggregierte SELECT Attribute müssen bei GROUP BY erscheinen==
