@@ -79,3 +79,10 @@ FROM Film, Manager // Kreuzprodukt
 WHERE Titel = ‘Star Wars‘ // Selektionsbedingung
 AND ProduzentID = ManagerID; // Joinbedingung
 ```
+
+PROBLEME wenn eine Relation leer => verwendet Intersect => leere Menge
+![[Joins.jpg]]
+
+```
+Film CROSS JOIN spielt_in // Kreuzprodukt joint alles
+```
