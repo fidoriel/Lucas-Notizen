@@ -84,5 +84,21 @@ PROBLEME wenn eine Relation leer => verwendet Intersect => leere Menge
 ![[Joins.jpg]]
 
 ```
-Film CROSS JOIN spielt_in // Kreuzprodukt joint alles
+FROM Film CROSS JOIN spielt_in // Kreuzprodukt joint alles
+FROM Schauspieler NATURAL JOIN Manager // joint auf gleichen Attributsnamen
 ```
+
+### Mengenoperationen
+==ALLES KLAMMERN==
+- Vereinigung: UNION => wie logisches ODER
+- Schnittmenge: INTERSECT => wie logisches UND
+- Differenz: EXCEPT / MINUS => Multimenge: EXCEPT ALL
+
+```
+(SELECT * FROM X)
+mengenoperation
+(SELECT * FROM Y)
+```
+
+### Subanfragen
+Skalare Subanfragen geben ein Tupel mit einem Attribut zurück
