@@ -5,7 +5,7 @@
 	- Typenkorrekte Vergleiche
 	- Aggregation korrekt
 ![[ParseTree.png]]
-=> Umwandelung in Operatorbaum
+=> Umwandelung in Operator[[Trees#baum|baum]]
 => Gewichte von unten an Kanten schreiben und nach oben Zusammenrechnen
 ![[OperatorTree.png]]
 
