@@ -69,6 +69,11 @@ x = 3 ergibt ``UNKNOWN``
 ``OR``: Maximum der beiden Werte
 ``NOT``: 1 – Wert
 
+`ÈXISTS` X falls X nicht leer 
+x ``IN`` Y (kann auch ``NOT IN`` verwendet werden)
+	x = ANY R: Entspricht x IN R
+x > ``ALL`` R falls x > alle Werte in R
+
 ### Stortierung
 ``ORDER BY`` Länge ``ASC``, Titel ``DESC``;
 
@@ -102,3 +107,11 @@ mengenoperation
 
 ### Subanfragen
 Skalare Subanfragen geben ein Tupel mit einem Attribut zurück
+```
+SELECT Name
+FROM Manager
+WHERE ManagerID =
+	( SELECT ProduzentID
+	FROM Film
+	WHERE Titel = ‘Star Wars‘ AND Jahr = ‘1977‘ );
+```
