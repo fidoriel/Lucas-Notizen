@@ -234,3 +234,11 @@ CREATE TRIGGER
 ```
 
 ## Indices
+Andere Datenstruktur => Beschläunigung
+```
+CREATE INDEX JahrStudioIndex
+ON Film(Jahr, Studioname); // Reihenfolge wichtig für Baum
+
+DROP INDEX JahrIndex;
+```
+Indexwahl gut überlegt? Speicherbedarf
