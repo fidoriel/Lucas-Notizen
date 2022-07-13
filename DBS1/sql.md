@@ -264,7 +264,7 @@ Inertions? => Manchmal OK => verstößt gegen sicht?
 CREATE VIEW ParamountFilme AS
 SELECT Titel, Jahr, Zahl 16
 FROM Film
-WHERE StudioName = ‘Paramount‘;
+WHERE StudioName = ‘Paramount‘; // SFW BLOCK ist die Bedingung der Sicht, die Query
 ```
 Mehere Tabellen in einer Sicht
 
@@ -277,7 +277,7 @@ Film, Manager
 WHERE ProduzentID = ManagerID;
 ```
 
-## Update
+### Update => SFW Block
 - Kein JOIN, Mengenoperationen => Welchen Teil der Sicht
 - kein DISTINCT => welches Tupel
 - keine Aggregatfunktion im Select => kann nicht geändert werden
@@ -286,5 +286,11 @@ WHERE ProduzentID = ManagerID;
 - keine JOINs
 
 #### Tupelmigration
-Bei Tupeländerung verstößt geändertes Tupel gegen VIEW Bedinung => es ist nicht mehr sichtbar. `WHERE X = 10` aber x auf 11 geändert
-Verhindern mit `WITH CHECK OPTION;`
+- Bei Tupeländerung verstößt geändertes Tupel gegen VIEW Bedinung => es ist nicht mehr
+- sichtbar. `WHERE X = 10` aber x auf 11 geändert
+- Verhindern mit `WITH CHECK OPTION;`
+
+### Materialisierte Sicht
+- Berechnete Werte, z.B. Bilanz in View => gespeichert
+- wann Updaten
+- Joins und Agggregate schwierig
