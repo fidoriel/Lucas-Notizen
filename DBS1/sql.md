@@ -277,8 +277,13 @@ Film, Manager
 WHERE ProduzentID = ManagerID;
 ```
 
-### Was nicht geht:
-Kein JOIN, Mengenoperationen
+## Update
+- Kein JOIN, Mengenoperationen => Welchen Teil der Sicht
+- kein DISTINCT => welches Tupel
+- keine Aggregatfunktion im Select => kann nicht geändert werden
+- GROUP BY und HAVING verboten
+- FROM nur eine Relation => sonst Änderung Unklar
+- keine JOINs
 
 #### Tupelmigration
 Bei Tupeländerung verstößt geändertes Tupel gegen VIEW Bedinung => es ist nicht mehr sichtbar. `WHERE X = 10` aber x auf 11 geändert
