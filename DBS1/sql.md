@@ -176,3 +176,61 @@ Nur Gruppierungsattribute dürfen un-aggregiert in HAVING Klausel erscheinen
 (wie bei SELECT-Klausel)
 
 ## Insertion/Creation
+
+### Insert
+```
+INSERT INTO spielt_in(FilmTitel, FilmJahr, Schauspieler)
+VALUES (‘Star Wars‘, 1977, ‘Alec Guinness‘);
+```
+Attibutliste weglassen wenn alle Atribbute gesetzt
+alle nichtgesetzten Attribute => ``NULL``
+
+Erst GESAMTE Anfrage ausführen
+```
+INSERT INTO Studio(Name)
+SELECT DISTINCT StudioName
+FROM Film
+WHERE StudioName NOT IN
+	(SELECT Name
+	FROM Studio);
+```
+### Löschen
+`DELETE FROM R WHERE`
+### Update
+`UPDATE R SET Name = 'Felix' WHERE …`
+
+## Datatypes
+- CHAR(n) => fixe Zeichenlänge
+- VARCHAR(n) => variabel max n Zeichen
+- BIT(n) => Wie char aber Bits
+- BOOLEAN => UNKNOWN = TRUE
+- INT/INTEGER/SHORTINT => 8 bzw. 4 Byte
+- FLOAT/REAL
+- DECIMAL(n,d) => DECIMAL(7,2) – 7 Stellen, davon 2 Nachkommastellen
+- CLOB => Character Large Object
+- BLOB => Binary Large Object
+- DATE
+
+## Tabellen
+`CREATE TABLE X(X BOOLEAN, Y VARCHAR(10) DEFAULT 'abc', Datum DATE);`
+`DROP TABLE X;`
+
+##### Verändern
+`ALTER TABLE Schauspieler DROP Geburtstag;`
+`ALTER TABLE Schauspieler ADD Telefon CHAR(6);`
+`ALTER TABLE Schauspieler MODIFY Telefon CHAR(10);`
+
+#### Optionen
+```
+PRIMARY KEY
+UNIQUE
+FOREIGN KEY … REFERENCES …
+NOT NULL
+CHECK
+CREATE ASSERTION
+CREATE TRIGGER
+
+=> `CREATE TABLE X(ID INTEGER PRIMARY KEY, X BOOLEAN, Y VARCHAR(10) DEFAULT 'abc', Datum DATE);`
+```
+
+## Indices
