@@ -277,4 +277,9 @@ Film, Manager
 WHERE ProduzentID = ManagerID;
 ```
 
+### Was nicht geht:
+Kein JOIN, Mengenoperationen
+
 #### Tupelmigration
+Bei Tupeländerung verstößt geändertes Tupel gegen VIEW Bedinung => es ist nicht mehr sichtbar. `WHERE X = 10` aber x auf 11 geändert
+Verhindern mit `WITH CHECK OPTION;`
