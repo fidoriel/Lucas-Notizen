@@ -45,3 +45,11 @@ Timestamp
 TIMESTAMP ‘1948-05-14 15:00:02.5‘
 
 Vergleiche möglich
+
+### NULL
+NULL oder ⊥
+
+Prüfung auf NULL:
+X IS NULL
+
+Vergleiche mit NULL => Unknown
