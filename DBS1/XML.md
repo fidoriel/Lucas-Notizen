@@ -73,6 +73,7 @@ XQueryX übersetzt XQuery in XML => Automatisch, nichtmehr einfach von Menschen 
 XML => Relationale Modell
 
 #### Modellbasiert
+##### Variante 1
 => Generische Speicherung in Graphstruktur
 ![[XML_Relational.png]]
 Wiederherstellbar durch[[Trees#Traversierung]] mit [[Trees#Tiefensuche depth first search DFS]]  => öffnen und Schließen
@@ -93,6 +94,10 @@ XQuery => SQL => Schemata
 ##### Beispiel
 Self Join => DOCIDs (Datei) => 
 ![[Anfragen.png]]
+
+##### Variante 2
+
+
 
 #### Strukturbasiert
 => Ableiten des Datenschemas
