@@ -58,7 +58,7 @@ Star Wars und Star Trek
 Vergleiche möglich
 
 ### NULL
-``NULL`` oder ⊥
+``NULL`` oder $\perp$
 
 Prüfung auf ``NULL``:
 X ``IS NULL``
