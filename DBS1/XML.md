@@ -121,5 +121,6 @@ einfach ein XML Feld in einer Relation
 ### Indizierung von XML
 - Preorder => Rangzahl von seinen Kindern
 - Postorder => Rangzahl nach seinen Kindern
-![[Rangzahl.png]]
+
+![[PrePostOrder.png]]
 
