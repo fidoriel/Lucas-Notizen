@@ -137,3 +137,18 @@ AND P.post < C.post
 ORDER BY P.pre
 ```
 ![[IndexXML.png]]
+
+#### Berechnung zum Überspringen von decending Knots
+![[Berechnung_pruning.png]]
+Beschläunigt, da grauen bereich Skippen
+Berechnung von:
+- pre(g) = post(f) + h
+- post(g) = pre(f) - h
+```
+
+// Pre
+WHERE v*.pre > f.pre AND v*.post < f.post
+
+// Post
+WHERE v*.pre > f.pre AND v*.pre ≤ f.post + h AND v*.post ≥ f.pre ‒ h AND v*.post < f.post
+```
