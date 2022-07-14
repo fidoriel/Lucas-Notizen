@@ -188,7 +188,6 @@ Nur Gruppierungsattribute dürfen un-aggregiert in HAVING Klausel erscheinen
 (wie bei SELECT-Klausel)
 
 ## Insertion/Creation
-
 ### Insert
 ```
 INSERT INTO spielt_in(FilmTitel, FilmJahr, Schauspieler)
@@ -206,6 +205,29 @@ WHERE StudioName NOT IN
 	(SELECT Name
 	FROM Studio);
 ```
+
+##### Referentielle Integrität
+```
+CREATE TABLE Studios(
+Name CHAR(30) PRIMARY KEY,
+Adresse VARCHAR(255),
+VorsitzenderID INT REFERENCES Manager(ManagerID));
+```
+Lehnt `ÌNSERT, UPDATE, DELETE` ab wenn nicht erfüllt
+=> Dependencies werden bei PK mitgelöscht
+=> Dependencies werden bei PK mitgeändert
+
+##### Lösung bei Catch 22
+PK = NULL
+=> spätere Änderung des PK
+ODER => EINE Inserttranskation => Commitet gemeinsam und Integrität OK
+
+##### CHECK
+`ON UPDATE CASCADE => änderung der FKs bei PK änderung`
+`CHECK (VorsitzenderID >= 100000)` => Überprüfung eines Attributes
+`CONSTRAINT NichtGeschlechtslos CHECK (Geschlecht IN (‚W‘, ‚M‘))`
+Löschen `ALTER TABLE Schauspieler DROP CONSTRAINT NichtGeschlechtslos;`
+
 ### Löschen
 `DELETE FROM R WHERE`
 ### Update
@@ -309,3 +331,5 @@ WHERE ProduzentID = ManagerID;
 
 #### Local-As-View
 Abbilden verschiedener Datenquellen auf eine View
+
+## Trigger und Assertions
