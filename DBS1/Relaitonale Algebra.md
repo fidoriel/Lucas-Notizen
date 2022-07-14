@@ -45,11 +45,17 @@ $\delta (\pi A,B(R))$
 ## Aggregation
 wie bei SQL => [[sql#Aggregation]]
 
-## Grouping
+## Grouping $\gamma$
 Gruppierung um z.B. von einem Berufsstand das durscnittliche Gehalt zu bekommen
+$\gamma Studio, AVG(Länge) \rightarrow Durchschnittslänge(\delta (\pi Titel, Länge, Studio(Film)))$
 
 ## Katesian Product $\times$
 [[sql#Join und Kreuzprodukt]]
+
+## Sortierung $\tau$
+Sortierung als Letztes
+[[sql#Stortierung]]
+
 
 ## Theta Join $\bowtie_{Bedingung}$
 Auf Multimengen => R1 mal mit R2 verjoint
@@ -60,6 +66,9 @@ Auf Multimengen => R1 mal mit R2 verjoint
 [[sql#Join und Kreuzprodukt]]
 Es gilt: $R(A,B,C) \bowtie S(B, C, D) = \rho_{T(A,B,C,D)}(\pi_{A, R.B, R.C, D}(\sigma_{(R.B = S.B AND R.C = S.C)}(R\times S)))$
 ![[Natural Join.png]]
+
+### Semi Join $\rtimes,\ltimes$
+Join über R und S, aber nur die Attribute von R sind interessant
 
 
 ## Cheatsheet

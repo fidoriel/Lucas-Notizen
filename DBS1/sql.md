@@ -95,7 +95,7 @@ x ``IN`` Y (kann auch ``NOT IN`` verwendet werden)
 x > ``ALL`` R falls x > alle Werte in R
 
 ### Stortierung
-``ORDER BY`` Länge ``ASC``, Titel ``DESC``;
+``ORDER BY`` Länge ``ASC``, Titel ``DESC`` LIMIT 10;
 
 ### Join und Kreuzprodukt
 ```
