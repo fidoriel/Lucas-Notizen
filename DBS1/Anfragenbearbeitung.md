@@ -52,7 +52,7 @@ Hauptspeichergröße?
 
 Wie groß ist der Qutput des nächsten Operators?
 
-Durchführung einer [[Optimierung]]
+Durchführung einer [[Optimierungsbaum]]
 
 #### Selektivität
 Kosten 

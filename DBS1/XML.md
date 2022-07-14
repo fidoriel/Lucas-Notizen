@@ -77,6 +77,16 @@ XML => Relationale Modell
 ![[XML_Relational.png]]
 Wiederherstellbar durch[[Trees#Traversierung]] mit [[Trees#Tiefensuche depth first search DFS]]  => öffnen und Schließen
 
+Probleme mit Mixed Content:
+```
+<x>
+	Text
+	<y>
+		Texty
+	</y>
+</x>
+```
+
 #### Strukturbasiert
 => Ableiten des Datenschemas
 - Daten verständlich
