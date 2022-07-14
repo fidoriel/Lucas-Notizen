@@ -123,4 +123,19 @@ einfach ein XML Feld in einer Relation
 - Postorder => Rangzahl nach seinen Kindern
 
 ![[PrePostOrder.png]]
+Quadranten entsprechen XPath 
+![[Quadranten.png]]
+- Speicherung einer Indextabelle mit Pre und Post
+- => XML wieder Rekonstruirbar
+- Durch StrukturXPath Anfragen Beantwortbat
+```
+// Preceding/Vorgänger für Following/Nachfolger < => >
+SELECT DISTINCT p.pre
+FROM context C, prepost P
+WHERE P.pre < C.pre
+AND P.post < C.post
+ORDER BY P.pre
+```
+![[IndexXML.png]]
 
+#### Verbesserungen
