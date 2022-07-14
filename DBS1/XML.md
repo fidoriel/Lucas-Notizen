@@ -61,4 +61,12 @@ XQueryX übersetzt XQuery in XML => Automatisch, nichtmehr einfach von Menschen 
 => Neuer Datentyp XML
 -  Werte in Spalte => String
 - Normale Tabelle mit XML => [[#XQuery]] 
-- 
+
+### Relational => XML
+- XMLGEN => Generiert XML von Query
+- XMLELEMENT => Erzeugt XML Element aus Werteliste
+- XMLFORREST
+- XMLCONCAT => Wald zusammenfügen
+- XMLAGG => Aggregieren
+
+### Anfragen an XML
