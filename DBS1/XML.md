@@ -100,10 +100,11 @@ Aufteilung des Baumes in Ebenen
 ![[XMLAufteilung.png]]
 
 #### Strukturbasiert
-=> Ableiten des Datenschemas
+=> Ableiten des Datenschemas aus DTD/XML
+- Mensch vergibt Datentypen
 - Daten verständlich
-
-
+- Thoretisch exisitierende Attribute fehlen => Hinzufügen wenn bemerkt
+- 
 
 #### Textbasiert
 => Plaintext
