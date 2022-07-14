@@ -56,3 +56,5 @@ keine PKs, FKs
 ### XQuery
 ![[XQuery.png]]
 XQueryX übersetzt XQuery in XML => Automatisch, nichtmehr einfach von Menschen erstellbar
+
+## Kombinierung mit Relationalen Datenbanken
