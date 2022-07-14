@@ -32,6 +32,12 @@ Selektion $\neq$ ``SELECT``
 [[sql#Join und Kreuzprodukt]]
 ![[Natural Join.png]]
 
+## Katesian Product $\times$
+[[sql#Join und Kreuzprodukt]]
+
+## Theta Join $\bowtie_{Bedingung}$
+### Equi Join
+=> Thetajoin mit =
 
 ## Cheatsheet
 | Name                     | Symbol            | LaTeX                            | Alternativtext |
