@@ -96,12 +96,14 @@ Self Join => DOCIDs (Datei) =>
 ![[Anfragen.png]]
 
 ##### Variante 2
-
-
+Aufteilung des Baumes in Ebenen
+![[XMLAufteilung.png]]
 
 #### Strukturbasiert
 => Ableiten des Datenschemas
 - Daten verständlich
+
+
 
 #### Textbasiert
 => Plaintext
