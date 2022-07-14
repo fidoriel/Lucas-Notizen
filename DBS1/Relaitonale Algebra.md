@@ -29,6 +29,8 @@ Selektion $\neq$ ``SELECT``
 - $\sigma_{attribut >= 100}$
 
 ## Umbenennung $\rho$
+$\rho Relation(A1, A2, A3)$
+oder in [[#Projection pi]]
 
 
 ## Natural Join $\bowtie$
