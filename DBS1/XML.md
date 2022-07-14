@@ -87,6 +87,13 @@ Probleme mit Mixed Content:
 </x>
 ```
 
+### Anfragen
+XQuery => SQL => Schemata
+
+##### Beispiel
+Self Join => DOCIDs (Datei) => 
+![[Anfragen.png]]
+
 #### Strukturbasiert
 => Ableiten des Datenschemas
 - Daten verständlich
