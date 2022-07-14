@@ -58,3 +58,7 @@ keine PKs, FKs
 XQueryX übersetzt XQuery in XML => Automatisch, nichtmehr einfach von Menschen erstellbar
 
 ## Kombinierung mit Relationalen Datenbanken
+=> Neuer Datentyp XML
+-  Werte in Spalte => String
+- Normale Tabelle mit XML => [[#XQuery]] 
+- 
