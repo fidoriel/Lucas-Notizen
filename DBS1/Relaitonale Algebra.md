@@ -33,16 +33,19 @@ $\rho Relation(A1, A2, A3)$
 oder in [[#Projection pi]]
 
 
-## Natural Join $\bowtie$
-[[sql#Join und Kreuzprodukt]]
-![[Natural Join.png]]
 
 ## Katesian Product $\times$
 [[sql#Join und Kreuzprodukt]]
 
 ## Theta Join $\bowtie_{Bedingung}$
 ### Equi Join
-=> Thetajoin mit =
+=> Thetajoin mit `=`
+
+### Natural Join $\bowtie$
+[[sql#Join und Kreuzprodukt]]
+Es gilt: $R(A,B,C) \bowtie S(B, C, D) = \rho_{T(A,B,C,D)}(\pi_{A, R.B, R.C, D}(\sigma_{(R.B = S.B AND R.C = S.C)}(R\times S)))$
+![[Natural Join.png]]
+
 
 ## Cheatsheet
 | Name                     | Symbol            | LaTeX                            | Alternativtext |
