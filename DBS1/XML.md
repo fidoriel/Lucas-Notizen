@@ -104,7 +104,22 @@ Aufteilung des Baumes in Ebenen
 - Mensch vergibt Datentypen
 - Daten verständlich
 - Thoretisch exisitierende Attribute fehlen => Hinzufügen wenn bemerkt
+- Dokument nicht einfach herstellbar
 - 
+###### Eine Relation für alles
+![[XML_in_eine_relation.png]]
+
+###### Aufteilung in Relationen
+![[XML_auteilung.png]]
+
+###### Verwendung einer Spalte
+einfach ein XML Feld in einer Relation
 
 #### Textbasiert
 => Plaintext
+
+### Indizierung von XML
+- Preorder => Rangzahl von seinen Kindern
+- Postorder => Rangzahl nach seinen Kindern
+![[Rangzahl.png]]
+
