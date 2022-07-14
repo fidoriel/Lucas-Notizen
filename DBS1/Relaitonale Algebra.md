@@ -26,7 +26,7 @@
 ## Selection $\sigma$
 Selektion $\neq$ ``SELECT``
 [[sql#where]]
-- $$
+- $\sigma_{attribut >= 100}$
 
 
 ## Cheatsheet
