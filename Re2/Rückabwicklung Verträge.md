@@ -12,7 +12,7 @@ keine Wertersatzpflicht aber **§ 357a BGB**
 Kunde Zahlt rückweg bei Wiederruf **§357 Abs. 5 BGB**
 Gefahr beim Unternehmer **§355 Abs. 3 S. 4 BGB**
 
-AGB Gesetz => §309 Abs. 7a
+AGB Gesetz => §309 Abs. 7a BGB
 
 [[Handelsrecht#Wer ist Kaufmann]]
 
