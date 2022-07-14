@@ -294,3 +294,6 @@ WHERE ProduzentID = ManagerID;
 - Berechnete Werte, z.B. Bilanz in View => gespeichert
 - wann Updaten
 - Joins und Agggregate schwierig
+
+#### Local-As-View
+Abbilden verschiedener Datenquellen auf eine View
