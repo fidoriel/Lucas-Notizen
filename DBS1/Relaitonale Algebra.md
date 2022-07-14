@@ -28,6 +28,10 @@ Selektion $\neq$ ``SELECT``
 [[sql#where]]
 - $\sigma_{attribut >= 100}$
 
+## Natural Join $\bowtie$
+[[sql#Join und Kreuzprodukt]]
+![[Natural Join.png]]
+
 
 ## Cheatsheet
 | Name                     | Symbol            | LaTeX                            | Alternativtext |
