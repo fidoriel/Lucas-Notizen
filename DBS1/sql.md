@@ -228,6 +228,8 @@ ODER => EINE Inserttranskation => Commitet gemeinsam und Integrität OK
 `CONSTRAINT NichtGeschlechtslos CHECK (Geschlecht IN (‚W‘, ‚M‘))`
 Löschen `ALTER TABLE Schauspieler DROP CONSTRAINT NichtGeschlechtslos;`
 
+__nicht bei Subanfragen__
+
 ### Löschen
 `DELETE FROM R WHERE`
 ### Update
@@ -333,3 +335,27 @@ WHERE ProduzentID = ManagerID;
 Abbilden verschiedener Datenquellen auf eine View
 
 ## Trigger und Assertions
+### Assertions 
+`CREATE ASSERTION Name CHECK (Bedingung)`
+`DROP ASSERTION Name;`
+Spezifizieren bei Attribut oder Tupel
+Bedingung muss bei Erzeugung der Assertion bereits gelten
+=> Änderungen werden rejected
+=> auch bei bei Subanfragen
+
+## Trigger `When`
+Ereigniss `INSERT, UPDATE, DELETE, Ende einer Transaktion`
+Trigger WAHR => Dinge passieren
+
+```
+CREATE TRIGGER GehaltsTrigger
+AFTER UPDATE OF Gehalt ON Manager // trigger
+REFERENCING
+	OLD ROW AS AltesTupel,
+	NEW ROW AS NeuesTupel
+FOR EACH ROW // für wen?
+	WHEN (AltesTupel.Gehalt > NeuesTupel.Gehalt)
+	UPDATE Manager // Aktion
+	SET Gehalt = AltesTupel.Gehalt
+	WHERE ManagerID = NeuesTupel.ManagerID;
+```
