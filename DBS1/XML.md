@@ -69,4 +69,15 @@ XQueryX übersetzt XQuery in XML => Automatisch, nichtmehr einfach von Menschen 
 - XMLCONCAT => Wald zusammenfügen
 - XMLAGG => Aggregieren
 
-### Anfragen an XML
+### Anfragen an 
+XML => Relationale Modell
+
+#### Modellbasiert
+=> Generische Speicherung in Graphstruktur
+
+#### Strukturbasiert
+=> Ableiten des Datenschemas
+- Daten verständlich
+- 
+#### Textbasiert
+=> Plaintext
