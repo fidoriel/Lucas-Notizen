@@ -70,6 +70,17 @@ Es gilt: $R(A,B,C) \bowtie S(B, C, D) = \rho_{T(A,B,C,D)}(\pi_{A, R.B, R.C, D}(\
 ### Semi Join $\rtimes,\ltimes$
 Join über R und S, aber nur die Attribute von R sind interessant
 
+Bei Verteilung über verschiedene Standorte => Überlegung für beste Übermittlungperformance
+=> Schicke mir nur das Zurück, was bei dir auch drin ist
+
+### Outer Join
+Übernimmt alle Tupel des linken $|\bowtie$
+(rechten($\bowtie |$)) Operanden
+Full $|\bowtie|$ outer Join => alle
+__aufgefüllt mit NULL__
+
+## Weitere
+Outer Union => 
 
 ## Cheatsheet
 | Name                     | Symbol            | LaTeX                            | Alternativtext |
