@@ -21,6 +21,18 @@ Relationsname bei uneindeutigen Attributnamen
 ``SELECT`` Titel, Länge * 0.016667 ``AS`` Stunden, ‘std.‘ ``AS`` inStunden
 ``FROM`` Film
 
+#### WHERE
+``WHERE relation.attribut > 100`
+
+#### FROM
+`FROM relation1 AS r1, relation2 AS r2`
+
+#### WHERE JOIN
+```
+FROM relation1 AS r1, relation2 AS r2
+WHERE r1.ID = r2.ID
+```
+
 ### Operatoren
 **Gleich =**
 **Ungleich <>**

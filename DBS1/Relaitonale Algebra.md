@@ -25,7 +25,8 @@
 
 ## Selection $\sigma$
 Selektion $\neq$ ``SELECT``
-[[sql#whe]]
+[[sql#where]]
+- $$
 
 
 ## Cheatsheet
