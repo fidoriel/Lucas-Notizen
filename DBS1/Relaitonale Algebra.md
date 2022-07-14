@@ -80,7 +80,11 @@ Full $|\bowtie|$ outer Join => alle
 __aufgefüllt mit NULL__
 
 ## Weitere
-Outer Union => 
+Outer Union => $\uplus$ wie vereinigung aber auch inkompatible schemata => NULL
+Division => R/S enthält alle x-Tupel, so dass es für jedes y-Tupel in S
+ein xy-Tupel in R gibt
+
+
 
 ## Cheatsheet
 | Name                     | Symbol            | LaTeX                            | Alternativtext |
