@@ -74,10 +74,12 @@ XML => Relationale Modell
 
 #### Modellbasiert
 => Generische Speicherung in Graphstruktur
+![[XML_Relational.png]]
+Wiederherstellbar durch[[Trees#Traversierung]] mit [[Trees#Tiefensuche depth first search DFS]]  => öffnen und Schließen
 
 #### Strukturbasiert
 => Ableiten des Datenschemas
 - Daten verständlich
-- 
+
 #### Textbasiert
 => Plaintext
