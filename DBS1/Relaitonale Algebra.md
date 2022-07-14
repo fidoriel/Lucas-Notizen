@@ -5,10 +5,15 @@
 - Attributmengen müssen identisch sein => Casting und Umbenennung
 - Duplicate eliminierung
 
+Bei Multimengen => absolute Anzahl => R1 + R2 mal
+
 ## Difference $-, \textbackslash$
 [[sql#Mengenoperationen]]
 - Attributschematagleichheit
 - Keine Kommutativität
+
+Bei Multimenge => max(0, R1 mal − R2 mal)
+Wenn > 0 R2 Tupel von R1 abgezogen
 
 ## Schnittmenge $intersection, \cap$
 [[sql#Mengenoperationen]]
@@ -17,6 +22,7 @@
 - Relationen müssen Identisch sein
 - $R \cap S = R − (R − S)$ = S − (S − R)
 
+Bei Multimengen => min(R1 mal, R2 mal)
 ## Projection $\pi$
 [[sql#Selectbedingungen]]
 - $\pi_{Attribut1, Attribut2}(Relation)$
@@ -32,12 +38,21 @@ Selektion $\neq$ ``SELECT``
 $\rho Relation(A1, A2, A3)$
 oder in [[#Projection pi]]
 
+## Duplicate Elimination
+[[sql#Mengenoperationen]]
+$\delta (\pi A,B(R))$
 
+## Aggregation
+wie bei SQL => [[sql#Aggregation]]
+
+## Grouping
+Gruppierung um z.B. von einem Berufsstand das durscnittliche Gehalt zu bekommen
 
 ## Katesian Product $\times$
 [[sql#Join und Kreuzprodukt]]
 
 ## Theta Join $\bowtie_{Bedingung}$
+Auf Multimengen => R1 mal mit R2 verjoint
 ### Equi Join
 => Thetajoin mit `=`
 
