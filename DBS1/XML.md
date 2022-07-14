@@ -137,5 +137,3 @@ AND P.post < C.post
 ORDER BY P.pre
 ```
 ![[IndexXML.png]]
-
-#### Verbesserungen
