@@ -49,3 +49,5 @@ Eigenschaften aus der realen Welt
 
 ### Relationenschemata
 > Name der Relation sowie Liste der Attribute mit Domäne
+
+### Integritätsbedingungen

@@ -1,4 +1,3 @@
-
 Datenbank für Multi-User
 ### ACID Bedingung
 - Atomicity: Transaktion ganz oder gar nicht
