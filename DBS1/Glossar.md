@@ -53,4 +53,8 @@ Eigenschaften aus der realen Welt
 ### Integritätsbedingungen
 - wenn alle erfüllt => Konsistent
 
+- [[#Referentielle Integrität]]
+- Entitätsintegrität => PK eindeutig
+- Bereichsintegrität => Wert eines Attributs in Wertebereich
+- Logische Konsistenz => [[sql#CHECK]]
 
