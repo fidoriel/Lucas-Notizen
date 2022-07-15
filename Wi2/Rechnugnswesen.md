@@ -5,4 +5,5 @@ Internes Rechnugswesen => Controlling
 
 - Liquidität
 - Buchhaltung
-- 
+- Finanzlage des Unternehmens
+	- => VErmögen in Bilanz Aktiva/Passiva
