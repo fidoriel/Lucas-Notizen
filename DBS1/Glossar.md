@@ -51,3 +51,6 @@ Eigenschaften aus der realen Welt
 > Name der Relation sowie Liste der Attribute mit Domäne
 
 ### Integritätsbedingungen
+- wenn alle erfüllt => Konsistent
+
+
