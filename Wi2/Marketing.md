@@ -18,6 +18,8 @@
 - Boni/Skonti
 - Liefer/Zahlungsbedingungen
 
+Verschiedene Preise für Verschiedene Zeiten, Regionen, Personen, Qualitative (Liefer, Abholpreis), Quantitativ (Mengenrabatt)
+
 #### Place
 - Logistik
 - Vertrieb
