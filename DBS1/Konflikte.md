@@ -23,6 +23,17 @@ Non-Repetable Reads =>$T_1$ grteift auf Wert zu, der aber währen er $T_2$ verä
 ![[Dirty Read.png]]
 Transaktion nicht Commited, $T_2$ hat trotzdem Werte weiterverarbeitet
 
+### Non Repetable Read
+![[NonRepetable.png]]
+Daten verändern sich zwischen Reads
+
+
+### Lost Update 
+![[Lost Update.png]]
+
+### Ablauf
+
+
 #### Schedule
 Ablaufplan bestehend aus einer Reihe von Transaktionen
 
