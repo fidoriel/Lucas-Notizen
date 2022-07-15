@@ -1,11 +1,13 @@
 Datenbank für Multi-User
 ### ACID Bedingung
 - Atomicity: Transaktion ganz oder gar nicht
-- Consistency: Datenbank vor Beginn und nach Ende in einem konsistenten Zustand => alle [[Glossar#Integritätsbedingungen]] erfüllt
-- Integritätsbestimmungen Erfüllt
+- Consistency: Datenbank vor Beginn und nach Ende in einem konsistenten Zustand => alle [[Glossar#Integritätsbedingungen|Integritätsbestimmungen]] erfüllt
 - Isolation: Transaktion sollte eindruck haben dass sie die Einzige ist
 	- Viele parallele Transaktionen
-- Durability: Ergebnis einer Transaktiondauerhat in DB
+- Durability: Ergebnis einer Transaktion dauerhat in DB gespeichert
+
+#### Serialisierbarkeit
+
 
 READ_UNCOMMITED
 READ_COMMITED
