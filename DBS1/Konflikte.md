@@ -70,15 +70,22 @@ Zwei schedules bei denne die Reihenfolge aller konfliktgierender Paare gleich is
 #### Konfliktserialisierbarer Schedule
 Schedule , der konfliktäquivivalent zu einem seriellen schedule ist.
 
-
+## Sperren
 ### Legal
 wenn Gesperrtes objekt nicht erneut gesperrt ist.
 
 ### 2 Phase Locking
 Alle Sperren einer Transaktion erfolgen vor der ersten Freigabe einer Sperre; es ermöglicht Konfliktserialisierbarkeit
 
-#### Deadlock
+##### Deadlock
 - Serialiserer erkennt und mach rollback
+- Timeouts
+- Waits-For Graph
+![[Sperren.png]]
+
+### Shared Lock/exclusive Lock
+- excluxive => Niemand außer ich
+- shared => alle Lesen
 
 ### Optimistisches, Pessimistisches Unlocking
 ##### Optimistisch
