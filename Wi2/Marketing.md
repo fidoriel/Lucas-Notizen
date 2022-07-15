@@ -24,6 +24,9 @@ Verschiedene Preise für Verschiedene Zeiten, Regionen, Personen, Qualitative (L
 - Logistik
 - Vertrieb
 
+Direktvertrieb
+EInzel und Großhandel
+
 #### Promotion
 - Mediawerbung
 - Direct Marketing
