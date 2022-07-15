@@ -33,6 +33,26 @@ Daten verändern sich zwischen Reads
 
 ### Ablauf
 
+```
+START TRABSACTION
+
+// alles was ACID Bedingung erfüllen soll
+// Zusammenfassen in einen logischen Block
+
+COMMIT // wenn OK
+ROLLBACK oder ABORT // wenn Problem
+```
+
+Abweichungen von ACID können angegeben werden => speed
+```
+[ { read only | read write }, ]
+[isolation level {
+	read uncommitted |
+	read committed |
+	repeatable read |
+	serializable }, ]
+[ diagnostics size ...]
+```
 
 #### Schedule
 Ablaufplan bestehend aus einer Reihe von Transaktionen
