@@ -33,4 +33,5 @@ EInzel und Großhandel
 - Sponsoring
 - Kommunikation
 
-Werbung 
+- Werbung
+- Zierlgruppenmarketing
