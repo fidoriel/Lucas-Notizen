@@ -10,6 +10,9 @@
 - Name
 - Markierung durch die Marke
 
+=> Dienstleistung komplementär
+![[Product.png]]
+
 #### Price
 - Rabatte
 - Boni/Skonti
