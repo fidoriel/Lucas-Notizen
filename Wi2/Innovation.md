@@ -24,7 +24,7 @@ Wettbewerber
 Nachfrager
 Marktbedingungen
 
-###### Marketing
+###### [[Marketing]]
 Lieferanten/Partner
 Struktur und Dynamik
 Kunden
