@@ -1,12 +1,13 @@
 Unterschieden in Internes und Externes Rechungswesen
-Internes Rechnugswesen => Controlling
 
 ![[Rechnungswesen.png]]
 
+### Externes Rechungswesen
 - Liquidität
 - Buchhaltung
 - Finanzlage des Unternehmens
-	- => VErmögen in Bilanz Aktiva/Passiva
+	- => Vermögen in Bilanz Aktiva/Passiva
+	- Liquidität => Insolvenz?
 
 ### Bilanz
 #### Aktiva => Wofür
@@ -14,4 +15,8 @@ Unten schnellste Liquitierbarkeit
 
 #### Passiva => Woher
 Unten driglichste Frist
+
+### Internes Rechnungswesen
+=> Controlling
+
  
