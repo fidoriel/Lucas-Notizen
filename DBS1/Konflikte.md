@@ -7,7 +7,8 @@ Datenbank für Multi-User
 - Durability: Ergebnis einer Transaktion dauerhat in DB gespeichert
 
 #### Serialisierbarkeit
-
+BSP:
+Bevor der eine Reserviert hat, wird dem anderen ein leerer Platz angezeigt => beide Reservieren
 
 READ_UNCOMMITED
 READ_COMMITED
@@ -17,6 +18,9 @@ SERIALIZABLE
 
 #### Phantom Read => Neue Tupel aber bei Read nicht erfasst
 Non-Repetable Reads =>$T_1$ grteift auf Wert zu, der aber währen er $T_2$ verändert worden ist, ergo zwei verschiedene Werte
+
+#### Dirty Read
+![[Dirty Read.png]]
 
 #### Schedule
 Ablaufplan bestehend aus einer Reihe von Transaktionen
