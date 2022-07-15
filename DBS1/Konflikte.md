@@ -1,3 +1,5 @@
+
+
 ### ACID Bedingung
 - Atomicity: Transaktion ganz oder gar nicht
 - Consistency: Datenbank vor Beginn und nach Ende in einem konsistenten Zustand !todo
