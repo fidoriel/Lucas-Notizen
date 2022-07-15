@@ -58,6 +58,7 @@ Schedule in dem Transaktionen vollständig hintereinander Ausgeführt werden.
 
 #### Serialisirbarer Schedule
 [[#Serieller Schedule]] dessen Effekt identisch zu einem belibigen anderen [[#Serieller Schedule]] ist
+=> eine mögliche Reihenfolge für die es kaputt geht reicht zum kippen
 
 #### Konfliktäquivivalenter Schedule
 Zwei schedules bei denne die Reihenfolge aller konfliktgierender Aktion gleich ist.
