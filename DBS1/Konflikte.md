@@ -2,7 +2,7 @@
 Datenbank für Multi-User
 ### ACID Bedingung
 - Atomicity: Transaktion ganz oder gar nicht
-- Consistency: Datenbank vor Beginn und nach Ende in einem konsistenten Zustand !todo
+- Consistency: Datenbank vor Beginn und nach Ende in einem konsistenten Zustand => alle Integritätsbestimmungen Erfüllt
 - Isolation: Transaktion sollte eindruck haben dass sie die EInzige ist
 	- Viele parallele Transaktionen
 - Durability: Ergebnis einer Transaktiondauerhat in DB
