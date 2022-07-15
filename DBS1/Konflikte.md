@@ -21,6 +21,7 @@ Non-Repetable Reads =>$T_1$ grteift auf Wert zu, der aber währen er $T_2$ verä
 
 #### Dirty Read
 ![[Dirty Read.png]]
+Transaktion nicht Commited, $T_2$ hat trotzdem Werte weiterverarbeitet
 
 #### Schedule
 Ablaufplan bestehend aus einer Reihe von Transaktionen
