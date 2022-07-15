@@ -44,15 +44,11 @@ ROLLBACK oder ABORT // wenn Problem
 ```
 
 Abweichungen von ACID können angegeben werden => speed
-```
-[ { read only | read write }, ]
-[isolation level {
-	read uncommitted |
-	read committed |
-	repeatable read |
-	serializable }, ]
-[ diagnostics size ...]
-```
+`read uncommited` => Zugriff auf nicht freigegebene Daten (`read only/read write`)
+`read committed` => nur geschriebene Werte => [[#Non Repetable Read]]
+`repetable read` => [[#Phantom Read Neue Tupel aber bei Read nicht erfasst|phantom read]]
+`serializable` => default nur zu beginn der Transaktion commites sind und waren + eigene änderungen
+![[Isolationsebenen.png]]
 
 #### Schedule
 Ablaufplan bestehend aus einer Reihe von Transaktionen
