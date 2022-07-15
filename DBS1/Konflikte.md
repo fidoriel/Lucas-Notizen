@@ -75,7 +75,8 @@ Schedule , der konfliktäquivivalent zu einem seriellen schedule ist.
 wenn Gesperrtes objekt nicht erneut gesperrt ist.
 
 ### 2 Phase Locking
-Alle Sperren einer Transaktion erfolgen vor der ersten Freigabe einer Sperre; es ermöglicht Konfliktserialisierbarkeit
+- Alle Sperren einer Transaktion erfolgen vor der ersten Freigabe einer Sperre; es ermöglicht Konfliktserialisierbarkeit
+- bei [[#Shared Lock exclusive Lock|Shared Lock]] sperren OK
 
 ##### Deadlock
 - Serialiserer erkennt und mach rollback
