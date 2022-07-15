@@ -65,6 +65,7 @@
 - Entscheidung über Bindung von Aktiva
 
 ## Controlling
+[[Rechnugnswesen]]
 - Überblick über Kurz, Mittel und Langfristige Ziele
 - Bereatung bei strategischer Aufstellung
 - Gesamtüberblich der Teilpläne
