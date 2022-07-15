@@ -6,15 +6,9 @@ Datenbank für Multi-User
 	- Viele parallele Transaktionen
 - Durability: Ergebnis einer Transaktion dauerhat in DB gespeichert
 
-#### Serialisierbarkeit
+#### Wozu Serialisierbarkeit
 BSP:
 Bevor der eine Reserviert hat, wird dem anderen ein leerer Platz angezeigt => beide Reservieren
-
-READ_UNCOMMITED
-READ_COMMITED
-REPETABLE_READ
-SERIALIZABLE
-!todo
 
 #### Phantom Read => Neue Tupel aber bei Read nicht erfasst
 Non-Repetable Reads =>$T_1$ grteift auf Wert zu, der aber währen er $T_2$ verändert worden ist, ergo zwei verschiedene Werte
@@ -60,11 +54,22 @@ Schedule in dem Transaktionen vollständig hintereinander Ausgeführt werden.
 [[#Serieller Schedule]] dessen Effekt identisch zu einem belibigen anderen [[#Serieller Schedule]] ist
 => eine mögliche Reihenfolge für die es kaputt geht reicht zum kippen
 
+### Konflikte
+- $r_i(X) w_k(X)$ => Konflikt
+- $w_i(X) r_k(X)$ => Konflikt
+- $w_i(X) w_k(X)$ => Konflikt
+
+ERGO => gleiches Element und eines write
+
 #### Konfliktäquivivalenter Schedule
-Zwei schedules bei denne die Reihenfolge aller konfliktgierender Aktion gleich ist.
+Zwei schedules bei denne die Reihenfolge aller konfliktgierender Paare gleich ist.
+- Schedule:                        r1(A) w1(A) r2(A) w2(A) r2(B) w2(B) r1(B) w1(B)
+- Serieller Schedule T1T2: r1(A) w1(A) r1(B) w1(B) r2(A) w2(A) r2(B) w2(B)
+- Serieller Schedule T2T1: r2(A) w2(A) r2(B) w2(B) r1(A) w1(A) r1(B) w1(B)
 
 #### Konfliktserialisierbarer Schedule
-Schedule , der konfliktäquivivalent zu einem seriellen schedule ist. 
+Schedule , der konfliktäquivivalent zu einem seriellen schedule ist.
+
 
 ### Legal
 wenn Gesperrtes objekt nicht erneut gesperrt ist.
