@@ -57,7 +57,7 @@ Ablaufplan bestehend aus einer Reihe von Transaktionen
 Schedule in dem Transaktionen vollständig hintereinander Ausgeführt werden.
 
 #### Serialisirbarer Schedule
-Schedule dessen Effekt identisch zu einem belibigen anderen schedule ist
+[[#Serieller Schedule]] dessen Effekt identisch zu einem belibigen anderen [[#Serieller Schedule]] ist
 
 #### Konfliktäquivivalenter Schedule
 Zwei schedules bei denne die Reihenfolge aller konfliktgierender Aktion gleich ist.
