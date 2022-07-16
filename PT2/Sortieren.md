@@ -53,3 +53,4 @@ for (int x = len-1; x>0; --x)
 ```
 
 Optimierung 2:
+swapped könnte durch letztes zu tauschendes Element $(i+1)$ sortiert werden da $[i+1,end]$ bereits sortiert
