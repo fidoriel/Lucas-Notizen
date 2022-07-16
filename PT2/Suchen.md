@@ -16,5 +16,5 @@ Wahl des Verfahrens nach Datengröße
 
 ## Exponentielle Suche
 - Exponentiell wachsende Suchintervalle bis GesWert <= ExpWachsendesInterval
-- Dann Binary Search $[ i/2, i ]$
+- Dann Binary Search $[ i/2, max(i-1, vector.size()-1) ]$
 - 
