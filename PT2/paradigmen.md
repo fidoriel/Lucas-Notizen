@@ -38,6 +38,7 @@ throw/catch)
 
 #### Modular
 => Prozeduren und Daten in logischen Einheiten
+- Separat Entwickelt und Debugged
 
 # Deklarativ
 => Berechnung von Werten nach erstellten Regeln
