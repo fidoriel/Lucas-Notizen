@@ -5,6 +5,10 @@
 # Imerpativ
 - Folgen von Funktionsaufrufen
 - Seiteneffekte => Global Vars
+- nahe Von Neumann
+- Benennung, Typisierung => Deklaration/Wertzuweisung
+- Zustandsfunktion => $Z:X\rightarrow W$ = Zustand: Variablenname -> Wert
+- 
 
 #### Strukturiert
 => ohne Goto
@@ -29,3 +33,8 @@
 # Nebenläufig
 => Parallel
 
+# Reflektiv
+- Verändern eigene Struktur
+
+# Generisch
+- Wiederverwendbar
