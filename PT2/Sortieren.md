@@ -58,3 +58,26 @@ swapped könnte durch letztes zu tauschendes Element $(i+1)$ sortiert werden da 
 ## Mergesort
 $O(n\cdot log(n))$
 [[algo#Divide and Conquer]]
+
+```
+vector<T> merge_sort(vector<T>& A) {
+	int N = A.size();
+	
+	// ein-elementig Liste sind (trivialerweise) sortiert
+	if(N==1) return A;
+	
+	// halbieren der Liste 
+	int m = N/2;
+	vector<T> A_L = left_part(A, m);
+	vector<T> A_R = right_part(A, m);
+	
+	// recursives Sortieren der Teillisten
+	vector<T> sorted_A_L = merge_sort(A_L);
+	vector<T> sorted_A_R = merge_sort(A_R);
+	
+	// merge of resulting lists
+	vector<T> merged_A = merge(sorted_A_L, sorted_A_R);
+	
+	return merged_A;
+}
+```
