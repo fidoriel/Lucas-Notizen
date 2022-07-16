@@ -15,3 +15,6 @@ Wahl des Verfahrens nach Datengröße
 ![[Interpolation Search.png]]
 
 ## Exponentielle Suche
+- Exponentiell wachsende Suchintervalle bis GesWert <= ExpWachsendesInterval
+- Dann Binary Search $[ i/2, i ]$
+- 
