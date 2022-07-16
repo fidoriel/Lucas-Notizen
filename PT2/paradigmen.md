@@ -36,9 +36,15 @@ throw/catch)
 #### Aufruf 
 - Aufruf z.B. `main` => weitere Aufrufe => Callgraph
 
+#### Top Down
+[[#Implementierung]] beginnt bei `main` und wird durch Funktionen verfeinert
+
 #### Modular
 => Prozeduren und Daten in logischen Einheiten
 - Separat Entwickelt und Debugged
+
+#### Abstraktion
+- wiederverwendbare Einheiten, die Komplexität entfernen
 
 # Deklarativ
 => Berechnung von Werten nach erstellten Regeln
