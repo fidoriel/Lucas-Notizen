@@ -55,11 +55,27 @@ throw/catch)
 - keine Seiteneffkete
 - Keine Globale Datenmanipulation
 - List inversion mit TailRecursion
+- Immer Recursion
+- Lazy Evaluation => Nur benötigtes Berechnet
 
 #### Higher-Order Functions
 Funktionen als Argumente oder Rückgabewerte
 
+#### Faltungsfunktion
+Funktion als Argument mit Liste => angewand auf jedes Element
 
+#### Reine Funktionen
+Nie Seiteneffekte
+Nie veränderung des Zustands
+Immer gleiches Resultat bei gleichem Input
+
+#### Monaden
+Kapseln nicht rein Funktionales Zeug => IO, Zustandsbehaftete Berechnungen, Zufall
+
+#### Funktional Vergleich
+![[Wichtige Konzepte Funktional.png]]
+c++ Lamdas
+`[](int x){ return 42; }`
 
 # Deklarativ
 => Berechnung von Werten nach erstellten Regeln
