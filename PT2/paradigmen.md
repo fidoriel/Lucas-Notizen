@@ -129,6 +129,13 @@ Mutation
 ## Verwendung
 Gute Approximation
 Iterative Verbesserung
-![[Gentische Algorithmen.png]]
+
 
 ## Ablauf
+1. Initialisierung => Zufall
+2. Fittnesfunktion  => Gut genug? Abbruch
+3. Selektion => Schlechte durch Fittnesbewertung raus
+4. Rekombination => Neue Individuen, Rekombination
+5. Mutation => Zufall
+
+![[Gentische Algorithmen.png]]
