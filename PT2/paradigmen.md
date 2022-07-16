@@ -3,3 +3,14 @@
 - Theoretische Grundlage
 
 ## Imerpativ
+- Folgen von Funktionsaufrufen
+- Seiteneffekte => Global Vars
+
+#### Strukturiert
+=> ohne Goto
+
+#### Prozedural
+=> in Unterprogrammen hirachisch Guppiert
+
+#### Modular
+=> Prozeduren und Daten in logischen Einheiten
