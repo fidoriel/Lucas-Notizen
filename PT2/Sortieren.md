@@ -7,6 +7,7 @@
 
 ## Insertionsort
 - Element aus altem Array in neues an richtiger Position
+$O(n^2)$
 ```
 for element in old:
 	suche Position
@@ -16,6 +17,7 @@ for element in old:
 
 ## Shellsort
 Zerlegung in kleine Teillisten => sortieren mit [[#Insertionsort]]
+$O$ ist etwas Schwierig => kommt auf daten an
 Mit Sprungweite $h$
 ```
 Sortieren von 2, 5, 3, 4, 3, 9, 3, 2, 5, 4, 1, 3
@@ -43,6 +45,7 @@ größtes Element suchen und mit letzter Stelle tauschen; bis Stelle n-1 wiederh
 ```
 
 ## Bubblesort
+$O(n^2)$ ohne Optimierungen
 ```
 for (int x = len-1; x>0; --x)
 	for (int i = 0; i<x; i++)
@@ -54,11 +57,13 @@ for (int x = len-1; x>0; --x)
 
 Optimierung 2:
 swapped könnte durch letztes zu tauschendes Element $(i+1)$ sortiert werden da $[i+1,end]$ bereits sortiert
+$O(\frac{n^2}{2})$
 
 ## Mergesort
 $O(n\cdot log(n))$
 [[algo#Divide and Conquer]]
-
+- Rekursives Teilen der Listen und 2, Bzw. Einelementige Listen sortieren => diese Weitersortieren
+![[Mergesort.png]]
 ```
 vector<T> merge_sort(vector<T>& A) {
 	int N = A.size();
@@ -80,6 +85,7 @@ vector<T> merge_sort(vector<T>& A) {
 						[](vector<T> sorted_A_L, vector<T> sorted_A_R)
 						{
 							vector<T> sorted;
+							// sortieren der Listen
 							while(sorted_A_L.size()>0 && sorted_A_R.size()>0)
 							{
 								if(sorted_A_L[0] < sorted_A_R[0])
@@ -93,8 +99,23 @@ vector<T> merge_sort(vector<T>& A) {
 									sorted_A_L.erase(sorted_A_R.begin());
 								}
 							}
+						// da nur bis zum Ende der kurzen Liste
+						// Sortiert lane anhängen
+						if(sorted_A_R.empty() == false)
+						{
+							sorted += sorted_A_R
+						}
+						
+						if(sorted_A_L.empty() == false)
+						{
+							sorted += sorted_A_L
+						}
+						
+						return sorted;
 						}
 	
 	return merged_A;
 }
 ```
+
+## Quicksort
