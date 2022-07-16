@@ -46,7 +46,9 @@ throw/catch)
 #### Abstraktion
 - wiederverwendbare Einheiten, die Komplexität entfernen
 
-# Funktional
+# Deklarativ
+=> Berechnung von Werten nach erstellten Regeln
+## Funktional
 - System von Axiomen
 - keine Datentypen
 - Funktionen ohne Namen => Auswertung in/out
@@ -77,13 +79,25 @@ Kapseln nicht rein Funktionales Zeug => IO, Zustandsbehaftete Berechnungen, Zufa
 c++ Lamdas
 `[](int x){ return 42; }`
 
-# Deklarativ
-=> Berechnung von Werten nach erstellten Regeln
 #### Logisch
-- Logische aussagen Schlussfolgerungen
+Scheme, Lisp, Haskell
 
-#### Funktional
-- geschachtelten oder rekursiven Aufrufen ohne Seiteneffekte
+- Logische aussagen Schlussfolgerungen
+- Menge von Axiomen
+-  Deduktiver Algorithmus = Logische Aussagen + Interpretationsalgorithmus + Anfrage
+- nicht wie es audgeführt wird, sondern was gilt
+
+##### Terminologie
+- Prolog
+
+- Fakten Atomare Formeln ohne Unbestimmte
+- Regeln => Aussage
+- Prämisse => Schlussfolgerung
+- Atomare Formeln
+- Auswerten der Regeln durch Verfahren
+	- Intuitiv => Einsetzen
+	- nicht deterministisch => Auflösen
+
 
 # Objektorientiert
 - Methodden und Daten => Kapselung
@@ -96,3 +110,5 @@ c++ Lamdas
 
 # Generisch
 - Wiederverwendbar
+
+# Genetisch
