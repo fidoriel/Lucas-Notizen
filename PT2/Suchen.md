@@ -11,3 +11,4 @@ Wahl des Verfahrens nach Datengröße
 ![[Binary Tree.png]]
 
 ## Interpolationssuche
+- Suche auf sortierten Werten anhand von Abschätzung
