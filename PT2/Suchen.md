@@ -12,4 +12,6 @@ Wahl des Verfahrens nach Datengröße
 
 ## Interpolationssuche
 - Suche auf sortierten Werten anhand von Abschätzung
-- ![[Interpolation Search.png]]
+![[Interpolation Search.png]]
+
+## Exponentielle Suche
