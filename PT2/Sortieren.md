@@ -79,7 +79,20 @@ vector<T> merge_sort(vector<T>& A) {
 	vector<T> merged_A = // merge(sorted_A_L, sorted_A_R);
 						[](vector<T> sorted_A_L, vector<T> sorted_A_R)
 						{
-							
+							vector<T> sorted;
+							while(sorted_A_L.size()>0 && sorted_A_R.size()>0)
+							{
+								if(sorted_A_L[0] < sorted_A_R[0])
+								{
+									sorted.push_back(sorted_A_L[0]);
+									sorted_A_L.erase(sorted_A_L.begin());
+								}
+								else
+								{
+									sorted.push_back(sorted_A_R[0]);
+									sorted_A_L.erase(sorted_A_R.begin());
+								}
+							}
 						}
 	
 	return merged_A;
