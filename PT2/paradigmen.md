@@ -18,7 +18,7 @@
 • Funktionsdeklaration und Implementierung
 • Kontrollanweisungen (if/switch, for/while/do-while/goto/return/break/continue,
 throw/catch)
-• Sequenzbildung (scopes, namespaces)
+• Sequenzbildung (scopes, namespaces) => [[cpp#Namensräume]]
 • Zuweisungen von Werten an Variablen (assignment operators)
 
 #### Strukturiert
@@ -45,6 +45,21 @@ throw/catch)
 
 #### Abstraktion
 - wiederverwendbare Einheiten, die Komplexität entfernen
+
+# Funktional
+- System von Axiomen
+- keine Datentypen
+- Funktionen ohne Namen => Auswertung in/out
+- Funktionsdefinition und anwendung identisch
+- Reihe von Geschachtelten Funktionnsaufrufe
+- keine Seiteneffkete
+- Keine Globale Datenmanipulation
+- List inversion mit TailRecursion
+
+#### Higher-Order Functions
+Funktionen als Argumente oder Rückgabewerte
+
+
 
 # Deklarativ
 => Berechnung von Werten nach erstellten Regeln
