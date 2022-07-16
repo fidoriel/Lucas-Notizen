@@ -112,3 +112,23 @@ Scheme, Lisp, Haskell
 - Wiederverwendbar
 
 # Genetisch
+- Abstammungshypothese => Mutation, gemeinsame Vorfahren
+- Allmählichkeitshypothese => kleine Mutationen
+- Selektionshypothese => Natual Selection, survival of the Fittest
+
+## Bio
+Genotyp => Gene
+Phänotyp => Aussehen
+Population
+Individuum
+Generation
+Chromosom
+Genom
+Mutation
+
+## Verwendung
+Gute Approximation
+Iterative Verbesserung
+![[Gentische Algorithmen.png]]
+
+## Ablauf
