@@ -119,3 +119,4 @@ vector<T> merge_sort(vector<T>& A) {
 ```
 
 ## Quicksort
+Median des Pivot
