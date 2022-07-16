@@ -120,3 +120,10 @@ vector<T> merge_sort(vector<T>& A) {
 
 ## Quicksort
 Median des Pivot
+
+```
+func qs (liste)
+	r = alle Elemente < liste[median]
+	s = alle Elemente > liste[median]
+	return r + s
+```
