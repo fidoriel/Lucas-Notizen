@@ -5,3 +5,13 @@
 • Stabilität: Relative Reihenfolge nach erster Sortierung Bleibt erhalten erst Name dann Alter
 
 ## Insertionsort
+- Element aus altem Array in neues an richtiger Position
+
+```
+for element in old:
+	suche Position
+	alle nachfolgenden Elemente um 1 nach rechts
+	element einfügen
+```
+
+## Shellsort
