@@ -67,5 +67,13 @@ else
 - Tiefensuche
 ```
 def backtracing(x):
+	if gelöst(x):
+		return lösung
+	elif not lösungMöglich(x):
+		return false
+	else:
+		s = möglicheLösung(x)
+		while (s):
+			
 	
 ```
