@@ -45,6 +45,7 @@ passend: Ende Letzte <= Anfang neue => Interval mir kleinster Schlusszeit
 
 ## Divide and Conquer
 Teilprobleme rekursiv Lösen
+Top Down
 [[Sortieren#Mergesort|Mergesort]]
 ##### Hanoi
 ```
@@ -80,4 +81,19 @@ def backtracing(x):
 			s = nextMöglichLösung(s)
 ```
 
+```
+def reverse(x):
+    if x:
+	    y = x[0]
+        reverse(x[1:])
+	    print(y)
+
+# wort invertieren
+reverse("Nebel")
+```
+
 ## Dynamic Programming
+Bottom UP <=> 
+- Optimierungsprobleme
+- Optimale Lösungen der Kleinsten Teilprobleme
+- 
