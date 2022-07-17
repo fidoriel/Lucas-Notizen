@@ -37,4 +37,7 @@ Mit geingstem Gewicht zu bk hinzufügen
 
 ```
 
+### Greedy Scheduling
+
+
 ## Divide and Conquer
