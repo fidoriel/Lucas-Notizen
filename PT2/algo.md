@@ -40,7 +40,9 @@ Mit geingstem Gewicht zu bk hinzufügen
 ### Greedy Scheduling
 Möglichst viele verschiedene Events => bestes Earliest FInith Time
 ```
-
+passend: Ende Letzte <= Anfang neue => Interval mir kleinster Schlusszeit
 ```
 
 ## Divide and Conquer
+
+### [[Sortieren#Mergesort|Mergesort]]
