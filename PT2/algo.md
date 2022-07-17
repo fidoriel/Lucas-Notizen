@@ -102,4 +102,4 @@ Bottom UP <=> Top Down [[#Backtracing]]
 Gewicht, Value auf gegebene Capacity => Möglichst viel Value Mitnehmen
 0-1 Genau ein mal oder kein Mal
 
-
+nach $\frac{benefit(value)}{weight}$ abstiegend sortieren
