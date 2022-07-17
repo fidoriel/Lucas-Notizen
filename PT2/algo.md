@@ -61,3 +61,6 @@ else
 	ToH(n-1, b, a, c); // move n-1 stack b to stack c
 }
 ```
+
+
+## Backtracing
