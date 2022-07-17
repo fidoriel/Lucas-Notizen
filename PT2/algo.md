@@ -101,3 +101,5 @@ Bottom UP <=> Top Down [[#Backtracing]]
 #### Rucksack
 Gewicht, Value auf gegebene Capacity => Möglichst viel Value Mitnehmen
 0-1 Genau ein mal oder kein Mal
+
+
