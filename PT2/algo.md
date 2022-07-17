@@ -103,3 +103,9 @@ Gewicht, Value auf gegebene Capacity => Möglichst viel Value Mitnehmen
 0-1 Genau ein mal oder kein Mal
 
 nach $\frac{benefit(value)}{weight}$ abstiegend sortieren
+
+Tabelle Füllen:
+wenn zu füllende Kapazität < aktuelles Reihengewicht => Gewicht der vorherigen Reihe der Selben spalte
+![[Knapsack 2.png]]
+![[Knapsack.png]]
+
