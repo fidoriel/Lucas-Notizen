@@ -109,3 +109,14 @@ wenn zu füllende Kapazität < aktuelles Reihengewicht => Gewicht der vorherigen
 ![[Knapsack 2.png]]
 ![[Knapsack.png]]
 
+### Tabelle
+![[Knapsack tabelle.png]]
+Rekursiv ermitteln, wer zur besten Lösung beigetragen hat:
+
+wenn Gegenstand == 0
+	Fertig
+wenn B(Gegenstand, Kapazität) == B(Gegenstand-1, Kapazität)
+	B(Gegenstand-1, Kapazität)
+wenn B(Gegenstand, Kapazität) != B(Gegenstand-1, Kapazität)
+	Gegenstand beteiligt => ausgeben
+	B(Gegenstand-1, Gewicht-Gewicht_Von_Gegenstand)
