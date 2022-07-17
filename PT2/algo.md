@@ -93,7 +93,11 @@ reverse("Nebel")
 ```
 
 ## Dynamic Programming
-Bottom UP <=> 
+Bottom UP <=> Top Down [[#Backtracing]]
 - Optimierungsprobleme
 - Optimale Lösungen der Kleinsten Teilprobleme
-- 
+- Zusammengesetzt
+
+#### Rucksack
+Gewicht, Value auf gegebene Capacity => Möglichst viel Value Mitnehmen
+0-1 Genau ein mal oder kein Mal
