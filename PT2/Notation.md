@@ -10,3 +10,15 @@ rvalue Definition
 ```
 
 ![[EBNF.png]]
+
+## Loop
+terminiert immer
+
+## While
+terminiert nicht immer => dynamisch Geprüft
+
+$LOOP\subset WHILE$
+
+## GOTO
+terminieren nicht immer
+$GOTO == WHILE$
