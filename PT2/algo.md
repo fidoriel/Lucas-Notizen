@@ -38,6 +38,9 @@ Mit geingstem Gewicht zu bk hinzufügen
 ```
 
 ### Greedy Scheduling
+Möglichst viele verschiedene Events => bestes Earliest FInith Time
+```
 
+```
 
 ## Divide and Conquer
