@@ -13,6 +13,7 @@ rvalue Definition
 
 ## Loop
 terminiert immer
+Loop berechenbar falls als Loop formulierbar
 
 ## While
 terminiert nicht immer => dynamisch Geprüft
