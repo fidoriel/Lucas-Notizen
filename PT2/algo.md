@@ -7,14 +7,15 @@
 3. Pakete Sortieren
 4. 3. Element ist Median
 5. Median der Mediane nehmen
-6. Elemente Einsortieren L < Median der Mediane < R
-7. Wenn gesuchtM <= L.size
-	1. rekursiv mit L aufrufen
-
-
-### Median of Medians
+6. Elemente ``Einsortieren L < Median der Mediane < R``
+7. Wenn ``L.size+1 == gesuchtM`` return Median der Mediane
+8. Wenn ``gesuchtM <= L.size()`` => rekursiv mit L aufrufen
+9. sonst rekursiv mit R aufrufen
 
 ## Greedy
-- 
+- Heuristische Strategie => bei jedem Schritt sich dem lokalen optimum Annähern
+- nächster Schritt immer näher an der Lösung => wahl des Größten gewinns
+- Approximiert Lösung halbwegs muss aber nicht globales Maximum sein => kann auch schlecht sein
+- geht nie zurück
 
 ## Divide and Conquer
