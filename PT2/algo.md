@@ -25,6 +25,6 @@
 • Bewertungsfunktion => Qualität der Lösung
 • Lösungsfunktion => Fertig?
 - Für Matroid-Probleme
-
+- BSP: 
 
 ## Divide and Conquer
