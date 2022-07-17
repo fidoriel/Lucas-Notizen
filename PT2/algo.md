@@ -68,12 +68,16 @@ else
 ```
 def backtracing(x):
 	if gelöst(x):
-		return lösung
-	elif not lösungMöglich(x):
 		return false
+	elif isLösung(x):
+		print(x)
+		return true
 	else:
 		s = möglicheLösung(x)
 		while (s):
-			
-	
+			if backtracing(s):
+				return true
+			s = nextMöglichLösung(s)
 ```
+
+## Dynamic Programming
