@@ -44,5 +44,20 @@ passend: Ende Letzte <= Anfang neue => Interval mir kleinster Schlusszeit
 ```
 
 ## Divide and Conquer
-
-### [[Sortieren#Mergesort|Mergesort]]
+Teilprobleme rekursiv Lösen
+[[Sortieren#Mergesort|Mergesort]]
+##### Hanoi
+```
+void ToH(int n, int a, int b, int c)
+{
+if(n == 1)
+	// move disc from a directly to c (no auxiliary stack required)
+	std::cout << "Move " << (char)('A' + a) << "->" << (char)('A' + c)<<std::endl;
+else
+{
+	ToH(n-1, a, c, b); // move n-1 stack of a to stack b
+	ToH(1, a, b, c);
+	// move remaining disc of a to c
+	ToH(n-1, b, a, c); // move n-1 stack b to stack c
+}
+```
