@@ -119,11 +119,14 @@ vector<T> merge_sort(vector<T>& A) {
 ```
 
 ## Quicksort
-Median des Pivot
-
+$O(2𝑛 log2 𝑛)$
+Teilen der Liste in zwei durch Pivot, rekursiv tauschen bis fertig r = 0 < 0 = l
 ```
-func qs (liste)
-	r = alle Elemente < liste[median]
-	s = alle Elemente > liste[median]
-	return r + s
+ func quicksort(links, rechts)
+     if links < rechts
+	     pivot = mittig_von(links, rechts)
+         quicksort(links, pivot - 1)
+         quicksort(pivot + 1, rechts)
+     ende
+ ende
 ```
