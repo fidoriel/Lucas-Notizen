@@ -25,6 +25,9 @@
 • Bewertungsfunktion => Qualität der Lösung
 • Lösungsfunktion => Fertig?
 - Für Matroid-Probleme
-- BSP: 
+- BSP: Coin Change
+
+### Minimal Spaning Tree
+
 
 ## Divide and Conquer
