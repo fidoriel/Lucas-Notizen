@@ -18,4 +18,14 @@
 - Approximiert Lösung halbwegs muss aber nicht globales Maximum sein => kann auch schlecht sein
 - geht nie zurück
 
+### Funktionen benötigt bei Greedy
+• Kandidatenmengen
+• Auswahlfunktion => bestn Kandidaten
+• Zulässigkeitsfunktion => Kandidat nützlich
+• Bewertungsfunktion => Qualität der Lösung
+• Lösungsfunktion => Fertig?
+
+### Für Matroid-Probleme
+
+
 ## Divide and Conquer
