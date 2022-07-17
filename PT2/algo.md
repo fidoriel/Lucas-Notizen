@@ -64,4 +64,8 @@ else
 
 
 ## Backtracing
-- Tiefensuche 
+- Tiefensuche
+```
+def backtracing(x):
+	
+```
