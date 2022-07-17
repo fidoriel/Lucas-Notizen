@@ -24,8 +24,7 @@
 • Zulässigkeitsfunktion => Kandidat nützlich
 • Bewertungsfunktion => Qualität der Lösung
 • Lösungsfunktion => Fertig?
-
-### Für Matroid-Probleme
+- Für Matroid-Probleme
 
 
 ## Divide and Conquer
