@@ -27,7 +27,14 @@
 - Für Matroid-Probleme
 - BSP: Coin Change
 
-### Minimal Spaning Tree
+### Minimal Spaning Tree Prim
+Gewichtete biderektionaler Graph
+```
+bk = {} // Menge der Besuchten Knoten
+Zufällig Wurzelknoten => bk.push_back(Knoten)
+Alle Kanten die von einem Knoten bk ausgehen (außer zu sich selbst)
+Mit geingstem Gewicht zu bk hinzufügen
 
+```
 
 ## Divide and Conquer
