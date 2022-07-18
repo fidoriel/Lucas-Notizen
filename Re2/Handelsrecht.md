@@ -79,7 +79,7 @@ Haftungsbegrenzung bei GmbH und AG auf Einlagevermögen
 
 - Bestellung von Geschäftsführer => Abbestellen Arbeitsvertrag aber Weiterbezahlen
 
-- Wenn gründung nich nicht vollendet 
+- Wenn gründung nich nicht vollendet Vertragsschließende Haften => mit GmbH Gründung 
 
 ## Prokura
 - Prokura muss ausdrücklich erteilt werden
