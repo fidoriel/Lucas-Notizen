@@ -61,7 +61,7 @@ Einfache Haftung => Kredite
 #### Stille Gesellschaft
 §230 BGB
 Inhaber wird Eigentümer des Vermögens
-§
+§231 BGB Gewinn/Verlust/Einlage
 
 ###### KG
 - §161 HGB
