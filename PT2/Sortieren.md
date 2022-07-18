@@ -6,6 +6,7 @@
 - Inplace?
 
 ## Insertionsort
+=> Stabil
 - Element aus altem Array in neues an richtiger Position
 $O(n^2)$
 ```
@@ -16,6 +17,7 @@ for element in old:
 ```
 
 ## Shellsort
+=> Nicht Stabil
 Zerlegung in kleine Teillisten => sortieren mit [[#Insertionsort]]
 $O$ ist etwas Schwierig => kommt auf daten an
 Mit Sprungweite $h$
@@ -40,11 +42,13 @@ Normales Insertionsort bei H h = 1
 ```
 
 ## Selectionsort
+=> Stabil
 ```
 größtes Element suchen und mit letzter Stelle tauschen; bis Stelle n-1 wiederholen
 ```
 
 ## Bubblesort
+=> Stabil
 $O(n^2)$ ohne Optimierungen
 ```
 for (int x = len-1; x>0; --x)
@@ -60,6 +64,7 @@ swapped könnte durch letztes zu tauschendes Element $(i+1)$ sortiert werden da 
 $O(\frac{n^2}{2})$
 
 ## Mergesort
+=> Stabil
 $O(n\cdot log(n))$
 [[algo#Divide and Conquer]]
 - Rekursives Teilen der Listen und 2, Bzw. Einelementige Listen sortieren => diese Weitersortieren
@@ -119,6 +124,7 @@ vector<T> merge_sort(vector<T>& A) {
 ```
 
 ## Quicksort
+=> nicht Stabil
 $O(2𝑛 log2 𝑛)$
 Teilen der Liste in zwei durch Pivot, rekursiv tauschen bis fertig r = 0 < 0 = l
 ```
