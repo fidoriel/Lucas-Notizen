@@ -8,7 +8,7 @@ __Verbraucher:__ §13BGB
 __Händler:__ §14BGB
 __Kaufmann:__ §1I HGB
 B2C nach **§310 BGB**
-Wiederruf nach **§312g BGB** => Fernabsatz, außerhalb von Geschäftsräumen
+Wiederruf nach **§312g BGB**, §346 BGB => Fernabsatz, außerhalb von Geschäftsräumen
 14 Tage Widerruf nach **§355 BGB** verlängert um ein Jahr nach **§356 BGB** => Ende **§§ 186, 188 BGB**
 Rückgewährpflicht nach **§357 BGB**
 keine Wertersatzpflicht aber **§ 357a BGB**
