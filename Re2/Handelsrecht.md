@@ -75,6 +75,8 @@ Haftungsbegrenzung bei GmbH und AG auf Einlagevermögen
 - GmbH bzw. UG im Namen
 - Geschäftsführer
 
+- Bestellung von Geschäftsführer => Abbestellen 
+
 ## Prokura
 - Prokura muss ausdrücklich erteilt werden
 	- Darf Unternehmer vollumfänglich vertreten §49 HGB
