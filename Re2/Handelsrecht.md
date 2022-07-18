@@ -58,6 +58,10 @@ Einfache Haftung => Kredite
 - §105 HGB
 - GbR der Kaufleute
 
+#### Stille Gesellschaft
+$230 BGB
+Inhaber wird Eigentümer des Vermögens
+
 ###### KG
 - §161 HGB
 - Kommanditist Geldeinlage beschränkte Haftung
@@ -79,7 +83,7 @@ Haftungsbegrenzung bei GmbH und AG auf Einlagevermögen
 
 - Bestellung von Geschäftsführer => Abbestellen Arbeitsvertrag aber Weiterbezahlen
 
-- Wenn gründung nich nicht vollendet Vertragsschließende Haften => mit GmbH Gründung 
+- Wenn gründung nich nicht vollendet Vertragsschließende Haften => mit GmbH Gründung Haftungsübernahme??
 
 ## Prokura
 - Prokura muss ausdrücklich erteilt werden
