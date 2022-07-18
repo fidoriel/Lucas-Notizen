@@ -59,8 +59,9 @@ Einfache Haftung => Kredite
 - GbR der Kaufleute
 
 #### Stille Gesellschaft
-$230 BGB
+§230 BGB
 Inhaber wird Eigentümer des Vermögens
+§
 
 ###### KG
 - §161 HGB
