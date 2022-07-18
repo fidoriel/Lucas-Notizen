@@ -79,6 +79,8 @@ Haftungsbegrenzung bei GmbH und AG auf Einlagevermögen
 
 - Bestellung von Geschäftsführer => Abbestellen Arbeitsvertrag aber Weiterbezahlen
 
+- Wenn gründung nich nicht vollendet 
+
 ## Prokura
 - Prokura muss ausdrücklich erteilt werden
 	- Darf Unternehmer vollumfänglich vertreten §49 HGB
