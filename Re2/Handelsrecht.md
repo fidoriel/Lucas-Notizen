@@ -75,7 +75,7 @@ Haftungsbegrenzung bei GmbH und AG auf Einlagevermögen
 - GmbH bzw. UG im Namen
 - Geschäftsführer
 
-- Bestellung von Geschäftsführer => Abbestellen 
+- Bestellung von Geschäftsführer => Abbestellen Arbeitsvertrag aber Weiterbezahlen
 
 ## Prokura
 - Prokura muss ausdrücklich erteilt werden
