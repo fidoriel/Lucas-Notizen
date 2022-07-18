@@ -32,6 +32,8 @@ Handelsbrauch der stillschweigenden Zustimmung nach **§346 HGB**
 **§1 HGB** Wer ein Handelsgewerbe betriebt
 **5 HGB** Wer sich eintragen lässt oder lassen muss
 
+Vorstand 
+
 ###### Feststellungsvorgang
 1. Art: Tätigkeiten und Geschäftsbeziehungen
 2. Umfang: Volumen, Kapital Größe der Unternehmung
