@@ -86,6 +86,8 @@ Haftungsbegrenzung bei GmbH und AG auf Einlagevermögen
 
 - Wenn gründung nich nicht vollendet Vertragsschließende Haften => mit GmbH Gründung Haftungsübernahme??
 
+GmbhG
+
 ## Prokura
 - Prokura muss ausdrücklich erteilt werden
 	- Darf Unternehmer vollumfänglich vertreten §49 HGB
