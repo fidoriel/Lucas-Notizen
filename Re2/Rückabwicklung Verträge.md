@@ -4,6 +4,7 @@ Rücktritt [[Schulden#Rücktritt bei Nichtleistung]]
 Wiederruf
 
 #### Händler zu Verbraucher
+Verbraucher vor Händler/Unternehmer Geschützt
 __Verbraucher:__ §13BGB
 __Händler:__ §14BGB
 __Kaufmann:__ §1I HGB
@@ -16,8 +17,11 @@ Kunde Zahlt rückweg bei Wiederruf **§357 Abs. 5 BGB**
 Gefahr beim Unternehmer **§355 Abs. 3 S. 4 BGB**
 
 AGB Gesetz => §309 Abs. 7a BGB
-
 [[Handelsrecht#Wer ist Kaufmann]]
+
+#### Unternehmer Kaufmann
+HGB nur zwischen Kaufläuten
+Unternehmer geschützt vor Kaufmann
 
 
 ###### Elektronische Geschäftsabwicklung
