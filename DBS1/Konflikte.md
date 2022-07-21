@@ -103,6 +103,10 @@ wenn Gesperrtes objekt nicht erneut gesperrt ist.
 $T_2$ liest alten Wert deswegen $T_2$->$T_1$
 Wenn Zyklenfrei([[Trees]]) => Konfliktserialisierbar
 
+$R_1(A)\rightarrow W_2(A)$
+$W_1(A)\rightarrow W_2(A)$
+$W_1(A)\rightarrow R_2(A)$
+
 ### Parse Baum
 - Vorne mit root Anfangen
 - jeden Operator in Teilbäume
