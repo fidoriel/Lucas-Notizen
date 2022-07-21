@@ -74,7 +74,7 @@ Schedule , der konfliktäquivivalent zu einem seriellen schedule ist.
 ### Legal
 wenn Gesperrtes objekt nicht erneut gesperrt ist.
 
-### 2 Phase Locking
+### 2 Phase Locking 2pc
 - Alle Sperren einer Transaktion erfolgen vor der ersten Freigabe einer Sperre; es ermöglicht Konfliktserialisierbarkeit
 - bei [[#Shared Lock exclusive Lock|Shared Lock]] sperren OK
 
