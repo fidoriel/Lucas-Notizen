@@ -5,7 +5,8 @@ Unternehmen setzt sich philosophische Grundsätze
 
 ## Ebenen
 - Meta
-	- 
 - Wirtschaftsordnung
 - Unternehmensebene
+	- Ethink auf Unternehmensebene
 - Individualebene
+	- 
