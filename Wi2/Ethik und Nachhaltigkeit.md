@@ -9,4 +9,8 @@ Unternehmen setzt sich philosophische Grundsätze
 - Unternehmensebene
 	- Ethink auf Unternehmensebene
 - Individualebene
-	- 
+	- Navhfragerseite
+
+## Nachhaltigkeit
+- Zielkonflikte
+
