@@ -34,3 +34,6 @@ veränderung des Marktes durch neue Technologien
 - Service ist Dauerhaft; kein Einmalkonsum
 - Interaktion mit dem Kunden
 - Dienstleistunge über das Produkt hinaus
+
+## Gastvortrag
+- günstige Technologien ermöglichen neue 
