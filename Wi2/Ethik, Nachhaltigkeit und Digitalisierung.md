@@ -16,4 +16,6 @@ Unternehmen setzt sich philosophische Grundsätze
 - Nachhaltigkeitszeiel im Unternehmen
 
 ## Digitalisierung
-Kombinatorial Innovation => Innovation auf verschiedenen Gebieten (gezielt oder spontan) => Zusammenführen ist die Innovation 
+Kombinatorial Innovation => Innovation auf verschiedenen Gebieten (gezielt oder spontan) => Zusammenführen ist die Innovation
+
+###### Digitale Transformation
