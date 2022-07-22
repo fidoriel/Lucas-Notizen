@@ -29,4 +29,8 @@ veränderung des Marktes durch neue Technologien
  - Kodak
 
 ## Digitale Plattformen
-- 
+- EInkauf ins Ökosystem
+- Userdatenbereitstellung
+- Service ist Dauerhaft; kein Einmalkonsum
+- Interaktion mit dem Kunden
+- Dienstleistunge über das Produkt hinaus
