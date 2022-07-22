@@ -28,3 +28,5 @@ veränderung des Marktes durch neue Technologien
  - Musikmarkt
  - Kodak
 
+## Digitale Plattformen
+- 
