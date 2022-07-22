@@ -20,3 +20,4 @@ Kombinatorial Innovation => Innovation auf verschiedenen Gebieten (gezielt oder 
 
 ###### Digitale Transformation
 Gescäftsmodellveränderung nach Strategien für Zukunftssicherheit
+Nutzenpotentiale für Unternehmen aus Unternehmen erschließen
