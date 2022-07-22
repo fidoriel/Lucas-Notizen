@@ -24,4 +24,7 @@ Nutzenpotentiale für Unternehmen aus Unternehmen erschließen
 Unternehmen erschießt Technologie aber nicht alle Möglichkeiten
 
 ## Digitale Disruption
-veränderung des Marktes
+veränderung des Marktes durch neue Technologien
+ - Musikmarkt
+ - Kodak
+
