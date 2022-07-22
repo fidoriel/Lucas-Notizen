@@ -13,4 +13,6 @@ Unternehmen setzt sich philosophische Grundsätze
 
 ## Nachhaltigkeit
 - Zielkonflikte
+- Nachhaltigkeitszeiel im Unternehmen
 
+## 
