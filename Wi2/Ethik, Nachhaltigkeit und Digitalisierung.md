@@ -15,4 +15,5 @@ Unternehmen setzt sich philosophische Grundsätze
 - Zielkonflikte
 - Nachhaltigkeitszeiel im Unternehmen
 
-## 
+## Digitalisierung
+- 
