@@ -36,4 +36,5 @@ veränderung des Marktes durch neue Technologien
 - Dienstleistunge über das Produkt hinaus
 
 ## Gastvortrag
-- günstige Technologien ermöglichen neue 
+- günstige Technologien ermöglichen neue Einsatzgebiete
+- Angst der Mitarbeiter ersetzt zu werden
